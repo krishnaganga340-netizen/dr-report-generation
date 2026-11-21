@@ -1,0 +1,2181 @@
+case_id,true_grade,cnn_grade,confidence,prompt_style,report_text
+1,0,0,0.964,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+**Case ID:** 1  
+**Screening Date:** Retrospective / Automated Analysis  
+
+**CNN Findings & Analysis:**
+- **Predicted DR Grade:** 0
+- **Predicted DR Stage:** No Diabetic Retinopathy (No DR)
+- **Model Confidence:** 0.964 (96.4%)
+
+**Impression:**
+Automated image analysis using the designated Convolutional Neural Network (CNN) indicates the absence of diabetic retinopathy (Grade 0). The model generated this classification with a high confidence score of 0.964. 
+
+**Recommendation:**
+Routine annual screening is recommended in accordance with standard clinical guidelines for patients with diabetes and no signs of retinopathy. Clinical correlation and review by a qualified eye care professional are advised for definitive diagnosis."
+1,0,0,0.964,few_shot,"Predicted stage: No DR
+Model confidence: 0.964
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+1,0,0,0.964,chain_of_thought,"**Analysis of CNN Prediction and Report Representation**
+
+* **Predicted DR Grade (0) & Stage (No DR):** These values indicate that the deep learning model evaluated the retinal image and detected no signs of diabetic retinopathy. In the clinical report, this finding is represented as a negative screening result, indicating the absence of microaneurysms, hemorrhages, exudates, or other characteristic lesions associated with the condition.
+* **Model Confidence (0.964):** This metric reflects the algorithm's certainty in its prediction. A confidence score of approximately 96.4% indicates a high degree of certainty by the CNN that the image corresponds to Grade 0 (No DR). In the reporting context, this high confidence supports the reliability of the automated screening outcome, though final clinical correlation and routine follow-up remain recommended per standard protocols."
+1,0,0,0.964,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.964
+4. Explanation: The convolutional neural network analyzed the retinal images for Case ID 1 and predicted a Diabetic Retinopathy (DR) grade of 0, corresponding to the ""No DR"" stage, with a model confidence of 0.964.
+5. Disclaimer: This AI-generated report is intended for screening assistance only and must be reviewed and confirmed by a qualified healthcare professional for a definitive diagnosis."
+1,0,0,0.964,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 1
+* **AI-Generated Prediction:** No DR (Grade 0)
+* **Model Confidence:** 0.964
+
+**Notice:**
+This report contains an AI-generated prediction and is intended for screening support only. It does not constitute a definitive diagnosis and should not be used as the sole basis for clinical decisions. The presence or absence of diabetic retinopathy cannot be definitively confirmed based on this automated analysis alone. 
+
+An eye-care professional (such as an optometrist or ophthalmologist) must review this case, evaluate the retinal images directly, and perform a comprehensive clinical examination to confirm the patient's actual status."
+2,0,0,0.989,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 2
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.989 (98.9%)
+
+**Findings & Interpretation:**
+Analysis of the retinal imaging for Case ID 2 using the automated convolutional neural network (CNN) yields a predicted Diabetic Retinopathy (DR) grade of 0, corresponding to ""No DR"" (No Diabetic Retinopathy). The model exhibits a high confidence score of 0.989 in this assessment, indicating that no characteristic signs of diabetic retinopathy were detected in the provided images. 
+
+*Note: This is an AI-assisted screening result and should be correlated with a comprehensive clinical evaluation by a qualified healthcare professional.*"
+2,0,0,0.989,few_shot,"Predicted stage: No DR
+Model confidence: 0.989
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+2,0,0,0.989,chain_of_thought,"**Analysis of CNN Prediction and Report Representation**
+
+* **Predicted DR Grade (0) & Stage (No DR):** These values indicate that the deep learning model found no clinical signs of diabetic retinopathy (such as microaneurysms, hemorrhages, or exudates) in the analyzed retinal image. In the final screening report, this is represented as a ""Negative"" or ""No Diabetic Retinopathy"" result, indicating that the patient currently shows no evidence of the condition based on the automated screening.
+* **Model Confidence (0.989):** This high numerical score (98.9%) reflects the algorithm's internal certainty regarding its classification of the image as Grade 0. In the reporting workflow, this high confidence level supports the reliability of the negative finding, though it remains part of an automated screening process designed to assist rather than replace comprehensive clinical evaluation."
+2,0,0,0.989,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.989
+4. Explanation: Based on the analysis of case ID 2, the AI model predicts a diabetic retinopathy grade of 0, corresponding to the ""No DR"" stage, with a high confidence level of 0.989.
+5. Disclaimer: This report is generated by an AI screening tool and should be reviewed by a qualified healthcare professional for a definitive diagnosis."
+2,0,0,0.989,safety_constrained,"**AI-Generated Screening Report (Draft)**
+
+* **Case ID:** 2
+* **AI Screening Result:** No DR (Diabetic Retinopathy) detected
+* **Model Confidence:** 0.989
+
+**Notice:** 
+This report is based solely on an automated artificial intelligence (CNN) prediction and is intended to assist with screening workflow. **This output does not constitute a definitive medical diagnosis.** The AI model suggests the potential absence of diabetic retinopathy, but automated screening cannot definitively rule out the presence of disease or other retinal conditions. 
+
+**Required Action:** 
+A qualified eye-care professional (such as an optometrist or ophthalmologist) must review these results and examine the patient to confirm the findings and determine appropriate clinical management."
+3,0,0,0.919,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 3
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.919
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal image, the screening indicates the absence of diabetic retinopathy (Predicted Stage: No DR). The model generated this classification with a confidence score of 0.919. 
+
+*Note: This is an AI-assisted preliminary screening result and should be reviewed by a qualified eye care professional for definitive diagnosis and clinical management.*"
+3,0,0,0.919,few_shot,"Predicted stage: No DR
+Model confidence: 0.919
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+3,0,0,0.919,chain_of_thought,"**Analysis of CNN Prediction and Report Representation:**
+
+*   **Predicted DR Grade and Stage (Grade 0 / No DR):** The model has classified the retinal image as showing no signs of diabetic retinopathy. In the generated screening report, this finding is represented as a normal result, indicating the absence of characteristic lesions such as microaneurysms, hemorrhages, or exudates based on the evaluated image.
+*   **Model Confidence (0.919):** The confidence score of 0.919 reflects a high degree of certainty by the algorithm in its classification of ""No DR."" In the reporting context, this high confidence supports the reliability of the negative screening outcome, though it remains interpreted as a decision-support metric alongside established clinical protocols."
+3,0,0,0.919,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.919
+4. Explanation: The AI-based screening model analyzed the retinal image for Case ID 3 and predicted a Diabetic Retinopathy grade of 0, corresponding to the ""No DR"" stage, with a model confidence of 0.919.
+5. Disclaimer: This report is generated by an AI screening tool and should be reviewed by a qualified healthcare professional for final diagnosis and clinical management."
+3,0,0,0.919,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 3
+* **AI Screening Result:** No DR (Grade 0)
+* **Model Confidence:** 0.919
+
+**Important Notice:**
+This report contains an AI-generated prediction based on retinal image analysis. This output is intended for screening support only and does not constitute a definitive medical diagnosis. The AI model's prediction suggests a low likelihood of diabetic retinopathy (Grade 0) with a confidence score of 0.919, but this result cannot rule out the presence of disease. 
+
+A comprehensive evaluation and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) are strictly required for proper clinical assessment, diagnosis, and management."
+4,0,0,0.999,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+**Case ID:** 4  
+**Screening Result:** No Diabetic Retinopathy (DR Grade: 0)  
+**Model Confidence:** 99.9%  
+
+**Findings & Interpretation:**  
+Automated analysis of the retinal imaging for Case ID resulted in a predicted Diabetic Retinopathy stage of ""No DR"" with a high model confidence of 0.999. Based on these findings, no signs of diabetic retinopathy were detected by the screening algorithm. 
+
+*Note: This AI-generated screening report is intended to assist healthcare providers and should be correlated with a comprehensive clinical evaluation.*"
+4,0,0,0.999,few_shot,"Predicted stage: No DR
+Model confidence: 0.999
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+4,0,0,0.999,chain_of_thought,"**Analysis of CNN Prediction and Report Representation**
+
+* **Predicted DR Grade & Stage (Grade 0 / No DR):** This finding indicates that the automated analysis of the retinal imagery showed no signs of diabetic retinopathy. In the generated screening report, this is represented as a normal finding, signifying the absence of characteristic lesions such as microaneurysms, hemorrhages, or exudates. 
+* **Model Confidence (0.999):** The extremely high confidence score reflects the model's strong statistical certainty in its classification. In the context of the report, this high degree of certainty supports the reliability of the negative screening result, indicating that the image quality was sufficient for the algorithm to make a decisive assessment without ambiguity."
+4,0,0,0.999,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.999
+4. Explanation: Based on the CNN analysis for Case ID 4, no signs of diabetic retinopathy were detected in the screening imagery, resulting in a predicted DR grade of 0 (No DR) with a high model confidence of 0.999.
+5. Disclaimer: This report is generated by an AI-based screening tool and should be reviewed by a qualified healthcare professional for a definitive diagnosis."
+4,0,0,0.999,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 4
+* **AI Model Prediction:** DR Grade 0 (No Diabetic Retinopathy detected)
+* **Model Confidence:** 0.999
+
+**Disclaimer and Notice:**
+This report is generated based on an automated AI-based analysis and represents a computational prediction only. **This result does not constitute a definitive medical diagnosis.** The AI model suggests the absence of referable diabetic retinopathy based on the analyzed image, but automated systems cannot guarantee complete accuracy and may miss subtle clinical findings. 
+
+A comprehensive evaluation, including a dilated eye examination, must be performed by a qualified eye-care professional (optometrist or ophthalmologist) to confirm the patient's actual ocular health status and to determine appropriate clinical management."
+5,0,0,0.985,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 5
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.985
+
+**Findings & Assessment:**
+Automated analysis using the designated Convolutional Neural Network (CNN) indicates a predicted Diabetic Retinopathy (DR) stage of ""No DR"" (Grade 0), with a high model confidence score of 0.985. Based on these algorithmic findings, there are no characteristic signs of diabetic retinopathy detected in the evaluated imagery. 
+
+*Note: This is an AI-assisted preliminary screening result and should be reviewed by a qualified eye care professional for definitive clinical diagnosis and management.*"
+5,0,0,0.985,few_shot,"Predicted stage: No DR
+Model confidence: 0.985
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+5,0,0,0.985,chain_of_thought,"Based on the AI-based diabetic retinopathy screening analysis for Case ID 5, the convolutional neural network predicts a Diabetic Retinopathy (DR) Grade of 0, corresponding to a clinical stage of ""No DR."" The model generated this classification with a high confidence score of 0.985, indicating strong certainty in the absence of observable DR features in the evaluated image."
+5,0,0,0.985,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.985
+4. Explanation: Based on the CNN analysis for Case ID 5, the model predicted a DR Grade of 0 corresponding to No DR with a model confidence of 0.985.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and should not replace a comprehensive clinical examination by a qualified ophthalmologist or optometrist."
+5,0,0,0.985,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 5
+* **AI-Generated Prediction:** No Diabetic Retinopathy (DR Grade: 0)
+* **Model Confidence:** 0.985
+
+**Important Notice:**
+This report contains an AI-generated prediction and is intended solely as an assisting tool for preliminary screening. **This is not a confirmed medical diagnosis.** The provided prediction does not replace a comprehensive eye examination. 
+
+No specific symptoms, retinal findings, or patient details have been evaluated or generated in this automated assessment. All AI-generated results must be thoroughly reviewed and confirmed by a qualified eye-care professional (such as an optometrist or ophthalmologist) before any clinical decisions or treatment plans are made."
+6,0,0,0.999,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 6
+* **Predicted DR Grade:** 0
+* **Predicted Stage:** No DR (No Diabetic Retinopathy)
+* **Model Confidence:** 0.999
+
+**Findings & Interpretation:**
+Based on the automated analysis of the provided retinal imagery, the screening algorithm indicates the absence of diabetic retinopathy (Grade 0). The model generated this classification with a high confidence score of 0.999. No referable signs of diabetic retinopathy were detected in this case. Routine follow-up is recommended in accordance with standard clinical guidelines."
+6,0,0,0.999,few_shot,"Predicted stage: No DR
+Model confidence: 0.999
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+6,0,0,0.999,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 6
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No Diabetic Retinopathy (No DR)
+* **Model Confidence:** 0.999 (99.9%)
+
+**Explanation:**
+The convolutional neural network (CNN) analyzed the retinal image for case ID 6 and assigned a predicted Diabetic Retinopathy (DR) grade of 0, corresponding to the ""No DR"" stage. The model achieved a very high confidence score of 0.999, indicating a strong certainty in the absence of characteristic diabetic retinopathy lesions such as microaneurysms, hemorrhages, or exudates based on the provided image data."
+6,0,0,0.999,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.999
+4. Explanation: The CNN model analyzed the retinal image for Case ID 6 and predicted a diabetic retinopathy grade of 0, corresponding to the ""No DR"" stage, with a high model confidence of 0.999.
+5. Disclaimer: This report is generated by an AI-based screening tool and should be reviewed by a qualified healthcare professional for formal diagnosis and clinical decision-making."
+6,0,0,0.999,safety_constrained,"**AI Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 6
+* **AI-Generated Prediction:** No Diabetic Retinopathy (DR Grade: 0)
+* **Model Confidence:** 0.999
+
+**Notice:** 
+This report is generated based on an automated AI analysis and is intended for screening support only. This is not a confirmed clinical diagnosis. The AI model has predicted the absence of diabetic retinopathy with high statistical confidence based on the provided image data; however, automated systems cannot replace a comprehensive clinical examination. 
+
+**Required Action:** 
+All AI-generated screening results must be reviewed and verified by a qualified eye-care professional (such as an optometrist or ophthalmologist) before any clinical decisions are made or patient management is altered. Please consult an eye-care specialist for a definitive evaluation."
+7,0,0,0.993,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 7
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.993
+
+**Findings and Interpretation:**
+AI-based image analysis of the provided retinal scan indicates no evidence of diabetic retinopathy (Grade 0 / No DR). The classification model generated this assessment with a high confidence score of 0.993. Clinical correlation and routine follow-up as per standard diabetic eye care guidelines are recommended."
+7,0,0,0.993,few_shot,"Predicted stage: No DR
+Model confidence: 0.993
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+7,0,0,0.993,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 7
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.993
+
+**Findings and Interpretation:**
+Based on the analysis of the provided retinal image by the deep learning convolutional neural network (CNN), the case is classified as Grade 0, corresponding to ""No Diabetic Retinopathy."" The model exhibits a very high confidence score of 0.993, indicating strong certainty in the absence of observable diabetic retinopathy lesions in this screening. Routine follow-up according to standard clinical guidelines is recommended."
+7,0,0,0.993,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.993
+4. Explanation: Based on the analysis of case ID 7, the CNN model has predicted a DR grade of 0, corresponding to the ""No DR"" stage, with a confidence score of 0.993.
+5. Disclaimer: This report is generated by an AI-based screening system and should be reviewed by a qualified healthcare professional for final diagnosis and clinical management."
+7,0,0,0.993,safety_constrained,"**AI-Assisted Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 7
+* **Screening Result:** No Diabetic Retinopathy (DR Grade 0) predicted
+* **Model Confidence:** 0.993
+
+**Disclaimer:** 
+This report is generated based on an automated AI-based CNN prediction and is intended for screening support only. It does not constitute a confirmed medical diagnosis. No specific symptoms, retinal findings, or patient details have been independently assessed or verified. 
+
+**Required Action:** 
+This AI-generated prediction requires clinical review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) before any clinical decisions or patient management plans are made."
+8,0,0,1.0,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 8
+* **Predicted DR Grade:** 0
+* **Predicted Stage:** No Diabetic Retinopathy (No DR)
+* **Model Confidence:** 1.0
+
+**Findings & Interpretation:**
+Analysis of the retinal image by the automated CNN screening system indicates the absence of diabetic retinopathy (Grade 0). The model generated this classification with a confidence score of 1.0. Based on these findings, no signs of referable diabetic retinopathy were detected in this screening. Clinical correlation and routine follow-up are recommended per standard guidelines."
+8,0,0,1.0,few_shot,"Predicted stage: No DR
+Model confidence: 1.0
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+8,0,0,1.0,chain_of_thought,"Based on the automated convolutional neural network (CNN) analysis for Case ID 8, the model predicts a Diabetic Retinopathy (DR) Grade of 0, corresponding to the ""No DR"" stage. The classification was made with a model confidence score of 1.0, indicating the highest level of certainty in the absence of observable DR features within the evaluated image data."
+8,0,0,1.0,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 1.0
+4. Explanation: The Convolutional Neural Network analyzed case ID 8 and predicted a diabetic retinopathy grade of 0, corresponding to the ""No DR"" stage, with a model confidence of 1.0 based solely on the provided image data.
+5. Disclaimer: This report is generated by an AI-based screening tool and should be reviewed by a qualified healthcare professional for formal diagnosis and treatment planning."
+8,0,0,1.0,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 8
+* **AI-Predicted DR Grade:** 0
+* **AI-Predicted DR Stage:** No DR
+* **Model Confidence:** 1.0
+
+**Disclaimer and Notice:**
+This report is generated automatically based on an artificial intelligence (CNN) screening prediction. **This is not a confirmed medical diagnosis.** The AI analysis has detected no signs of diabetic retinopathy (Grade 0 / No DR) with the stated model confidence; however, automated screening tools have limitations and cannot replace a comprehensive clinical examination. 
+
+**Required Action:**
+All AI-generated screening results must be reviewed and verified by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please consult a healthcare provider for a definitive evaluation, diagnosis, and personalized management plan."
+9,0,0,0.999,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 9
+* **Predicted DR Grade:** 0
+* **Predicted Screening Stage:** No Diabetic Retinopathy (No DR)
+* **Model Confidence:** 0.999
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal image, no signs of diabetic retinopathy were detected. The model demonstrates a high level of confidence (0.999) in this classification. 
+
+**Recommendation:**
+Routine screening interval as per standard clinical guidelines. No immediate referral to an ophthalmologist is indicated based on this automated assessment."
+9,0,0,0.999,few_shot,"Predicted stage: No DR
+Model confidence: 0.999
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+9,0,0,0.999,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 9
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.999
+
+**Explanation:**
+The deep learning model analyzed the retinal image for Case ID 9 and predicted a Diabetic Retinopathy (DR) grade of 0, corresponding to the ""No DR"" stage. The model's classification is supported by a very high confidence score of 0.999, indicating a high certainty that the evaluated image shows no characteristic signs of diabetic retinopathy."
+9,0,0,0.999,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.999
+4. Explanation: The convolutional neural network analyzed the retinal image for Case ID 9 and classified it as Grade 0 (No DR) with a high confidence level of 0.999, indicating no signs of diabetic retinopathy were detected in this image.
+5. Disclaimer: This AI-generated report is intended for screening assistance only and should not replace professional medical diagnosis, advice, or treatment. All AI findings must be verified by a qualified healthcare professional."
+9,0,0,0.999,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 9
+* **Report Date:** [Current Date]
+
+---
+
+### **AI Screening Prediction**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.999
+
+---
+
+### **Important Notice**
+* **Non-Diagnostic Statement:** This report is generated by an artificial intelligence (AI) screening model and does not constitute a confirmed medical diagnosis. 
+* **Required Action:** The results and associated retinal images require review and verification by a qualified eye-care professional (such as an optometrist or ophthalmologist) for a definitive clinical assessment.
+* **Patient Symptoms and Findings:** No specific retinal findings, symptoms, or personal patient details have been generated or evaluated beyond the automated image-based CNN prediction. 
+
+*Please consult with a qualified healthcare provider to discuss these results and to ensure comprehensive eye care management.*"
+10,0,0,0.996,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 10
+* **Predicted DR Grade:** 0
+* **Predicted Stage:** No Diabetic Retinopathy (No DR)
+* **Model Confidence:** 0.996
+
+**Findings & Interpretation:**
+Based on the analysis of the retinal image using the automated CNN screening model, no signs of diabetic retinopathy were detected. The model classified the case as Grade 0 (No DR) with a high confidence score of 0.996. Routine follow-up is recommended in accordance with standard diabetic eye screening guidelines."
+10,0,0,0.996,few_shot,"Predicted stage: No DR
+Model confidence: 0.996
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+10,0,0,0.996,chain_of_thought,"Based on the AI-based screening analysis for Case ID 10, the Convolutional Neural Network (CNN) predicts a Diabetic Retinopathy (DR) Grade of 0, corresponding to the stage of ""No DR"" (No Diabetic Retinopathy). The model exhibits a very high confidence score of 0.996 in this assessment, indicating strong certainty that no signs of diabetic retinopathy are present in the evaluated image data."
+10,0,0,0.996,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.996
+4. Explanation: The convolutional neural network analyzed the retinal image for Case ID 10 and detected no signs of diabetic retinopathy, resulting in a predicted DR grade of 0 and a prediction stage of No DR with a model confidence of 0.996.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and should not replace a comprehensive clinical examination by a qualified ophthalmologist or optometrist."
+10,0,0,0.996,safety_constrained,"**AI-Assisted Screening Report**
+
+* **Case ID:** 10
+* **Report Type:** Diabetic Retinopathy (DR) Screening Preliminary Output
+* **AI Model Prediction:** DR Grade 0 (No DR)
+* **Model Confidence:** 0.996
+
+**Notice and Disclaimer:**
+This report contains an automated AI-generated prediction based on the provided retinal image data. **This is not a confirmed medical diagnosis.** 
+
+* No specific retinal findings, symptoms, or patient clinical details have been evaluated or incorporated into this automated assessment.
+* Automated screenings have limitations and should be used solely as a supportive tool. 
+
+**Required Action:**
+This AI-generated prediction requires clinical review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) for a definitive diagnosis and appropriate patient management."
+11,1,1,0.837,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 11
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 837 (83.7%)
+
+**Findings & Assessment:**
+Based on the automated convolutional neural network (CNN) analysis, the screening image for Case ID 11 indicates the presence of Mild Diabetic Retinopathy (DR Grade 1). The model generated this classification with a confidence score of 0.837. This finding suggests early-stage microvascular changes consistent with mild non-proliferative diabetic retinopathy, warranting clinical correlation and routine follow-up according to standard screening protocols."
+11,1,1,0.837,few_shot,"Predicted stage: Mild
+Model confidence: 0.837
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+11,1,1,0.837,chain_of_thought,"Based on the AI-based diabetic retinopathy screening analysis for Case ID 11, the Convolutional Neural Network (CNN) has predicted a Diabetic Retinopathy (DR) Grade of 1, corresponding to the Mild stage of the condition. The model's confidence in this classification is 0.837 (83.7%). This indicates a moderate-to-high level of certainty by the algorithm in detecting early, mild signs of diabetic retinopathy, which typically involve microaneurysms. Clinical correlation and a comprehensive ophthalmologic evaluation are recommended to confirm these findings."
+11,1,1,0.837,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.837
+4. Explanation: The AI model analyzed the retinal image for Case ID 11 and detected signs of diabetic retinopathy, classifying the severity as Grade 1 (Mild) with a prediction confidence score of 0.837.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis (Case ID: 11). It is intended to assist healthcare professionals and does not constitute a definitive medical diagnosis. All AI findings should be confirmed by a qualified ophthalmologist or clinician."
+11,1,1,0.837,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 11
+* **AI Prediction:** Diabetic Retinopathy Grade 1 (Mild)
+* **Model Confidence:** 0.837
+
+**Disclaimer and Notice:**
+This report is generated automatically based on an AI model prediction and does not constitute a confirmed medical diagnosis. The algorithm has indicated findings suggestive of Mild Diabetic Retinopathy with a confidence score of 0.837, but AI-based screening tools have limitations and cannot replace a comprehensive clinical examination. 
+
+No specific retinal findings, symptoms, or patient history have been independently verified. 
+
+**Required Action:**
+This screening result requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive dilated eye examination for formal evaluation, diagnosis, and personalized management."
+12,1,2,0.755,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+**Case ID:** 12  
+**Predicted DR Grade:** 2  
+**Predicted DR Stage:** Moderate  
+**Model Confidence:** 75.5% (0.755)  
+
+**Findings & Assessment:**  
+Based on the automated analysis of the retinal imaging provided for Case ID 12, the Convolutional Neural Network (CNN) has classified the screening as Moderate Diabetic Retinopathy (Grade 2). The model generated this classification with a confidence score of 0.755. This finding suggests the presence of moderate non-proliferative diabetic retinopathy changes, which typically warrant referral for a comprehensive ophthalmologic evaluation and closer clinical monitoring."
+12,1,2,0.755,few_shot,"Predicted stage: Moderate
+Model confidence: 0.755
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+12,1,2,0.755,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 12
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.755
+
+**Findings and Interpretation:**
+Based on the convolutional neural network (CNN) analysis of the retinal image, the case has been classified as Diabetic Retinopathy (DR) Grade 2, corresponding to a moderate stage of the disease. This grade typically indicates the presence of more than just mild microaneurysms, such as the potential presence of moderate dot and blot hemorrhages, hard exudates, or cotton-wool spots. The model generated this classification with a confidence score of 0.755, reflecting a moderate-to-high level of certainty in the automated assessment. Further clinical evaluation is recommended to confirm these findings and determine appropriate patient management."
+12,1,2,0.755,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.755
+4. Explanation: The AI screening model has analyzed the retinal image for Case ID 12 and classified the finding as DR Grade 2, corresponding to the Moderate stage of diabetic retinopathy, with a model confidence score of 0.755.
+5. Disclaimer: This is an AI-generated preliminary screening report based solely on model predictions (Case ID: 12). It is not a definitive clinical diagnosis. All automated screening results should be reviewed and confirmed by a qualified healthcare professional."
+12,1,2,0.755,safety_constrained,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 12
+* **AI-Generated Prediction:** Moderate Diabetic Retinopathy (DR Grade: 2)
+* **Model Confidence:** 0.755
+
+**Disclaimer and Notice:**
+This report is generated automatically based on an artificial intelligence (CNN) screening model. **This is not a confirmed medical diagnosis.** The AI prediction indicates findings consistent with moderate diabetic retinopathy with a confidence score of 0.755, but it cannot replace a comprehensive clinical examination. 
+
+No specific retinal lesions, symptoms, or patient clinical history have been independently verified by this system. 
+
+**Required Action:**
+All AI-generated screening results require formal review and verification by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive dilated eye examination for clinical evaluation, diagnosis, and personalized management."
+13,1,0,0.851,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 13
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No DR
+* **Model Confidence:** 0.851
+
+**Clinical Summary:**
+Based on the AI-based convolutional neural network (CNN) analysis of the provided retinal image, the screening indicates the absence of diabetic retinopathy (Predicted DR Stage: No DR, Grade 0). The model generated this assessment with a confidence score of 0.851. 
+
+*Note: This AI-generated preliminary result should be reviewed by a qualified healthcare professional in conjunction with a comprehensive clinical examination.*"
+13,1,0,0.851,few_shot,"Predicted stage: No DR
+Model confidence: 0.851
+Explanation: The CNN model predicted No DR.
+Disclaimer: AI-generated result; professional review is required."
+13,1,0,0.851,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 13
+* **Predicted DR Grade:** 0
+* **Predicted DR Stage:** No Diabetic Retinopathy (No DR)
+* **Model Confidence:** 0.851
+
+**Clinical Explanation:**
+Based on the analysis of the retinal imagery by the convolutional neural network (CNN), the patient is classified with a Diabetic Retinopathy grade of 0, corresponding to the ""No DR"" stage. The model did not detect observable microaneurysms, hemorrhages, exudates, or other characteristic lesions associated with diabetic retinopathy. The prediction is supported by a model confidence score of 0.851. Routine follow-up and standard glycemic control are recommended in accordance with screening guidelines."
+13,1,0,0.851,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 0
+2. Predicted DR Stage: No DR
+3. Model Confidence: 0.851
+4. Explanation: The automated CNN analysis for Case ID 13 indicates a predicted diabetic retinopathy grade of 0, corresponding to the ""No DR"" stage, with a model confidence score of 0.851.
+5. Disclaimer: This report is generated by an AI-based screening tool and should be reviewed by a qualified healthcare professional for a definitive diagnosis."
+13,1,0,0.851,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 13
+* **Screening Result:** Predicted DR Grade: 0 (No DR)
+* **Model Confidence:** 0.851
+
+**Important Notice:**
+This report is generated based on an automated AI-based prediction and does not constitute a confirmed medical diagnosis. The screening algorithm indicates a finding consistent with No Diabetic Retinopathy (Grade 0) with a model confidence of 0.851. 
+
+However, AI screening tools have limitations and cannot replace a comprehensive clinical examination. This result requires mandatory review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please consult a healthcare provider for a complete evaluation and personalized medical advice."
+14,1,1,0.513,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 14
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.513
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis, the screening indicates the presence of mild diabetic retinopathy (Grade 1) with a model confidence score of 0.513. This classification suggests early, non-proliferative retinal changes consistent with mild disease. 
+
+**Recommendation:**
+Clinical correlation and review by an eye care specialist are recommended to confirm findings and determine appropriate follow-up intervals."
+14,1,1,0.513,few_shot,"Predicted stage: Mild
+Model confidence: 0.513
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+14,1,1,0.513,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 14
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.513
+
+**Findings and Explanation:**
+The Convolutional Neural Network (CNN) analysis of the retinal image predicts a Diabetic Retinopathy (DR) Grade of 1, corresponding to the Mild stage of the disease. This classification indicates the presence of early, non-proliferative changes, such as mild microaneurysms. However, the model confidence score of 0.513 reflects a moderate level of certainty in this prediction, suggesting that the features are subtle or borderline. Consequently, clinical correlation and human expert review are strongly recommended to confirm the findings and determine appropriate patient management."
+14,1,1,0.513,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.513
+4. Explanation: The Convolutional Neural Network (CNN) analysis for Case ID 14 resulted in a predicted diabetic retinopathy grade of 1, corresponding to a mild stage, with a model confidence score of 0.513.
+5. Disclaimer: This AI-generated report is intended to assist with diabetic retinopathy screening and should be reviewed by a qualified healthcare professional for final diagnosis and treatment planning."
+14,1,1,0.513,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 14
+* **Screening Result:** Predicted DR Grade: 1 (Mild)
+* **Model Confidence:** 0.513
+
+**Important Notice:**
+This report contains an AI-generated prediction and does not constitute a confirmed medical diagnosis. The analysis is based solely on automated image evaluation and has not been verified by a clinician. 
+
+**Next Steps:**
+* No symptoms, specific retinal findings, or definitive diagnoses can be established from this screening alone.
+* This result requires mandatory review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) to determine the actual clinical status and any necessary follow-up care."
+15,1,1,0.791,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 15
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild Non-Proliferative Diabetic Retinopathy
+* **Model Confidence:** 79.1% (0.791)
+
+**Findings & Assessment:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal image, the case is classified as Grade 1 (Mild diabetic retinopathy). The model generated this classification with a confidence score of 0.791. This finding suggests the potential presence of early, non-proliferative signs of diabetic retinopathy, such as microaneurysms. 
+
+**Recommendation:**
+Clinical correlation and review by a qualified eye care professional are recommended to confirm the findings and determine appropriate follow-up intervals."
+15,1,1,0.791,few_shot,"Predicted stage: Mild
+Model confidence: 0.791
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+15,1,1,0.791,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 15
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.791
+
+**Clinical Explanation:**
+The Convolutional Neural Network (CNN) analysis of the retinal image indicates a predicted Diabetic Retinopathy (DR) Grade of 1, corresponding to a Mild stage of the disease. The model's classification is associated with a confidence score of 0.791, reflecting moderate certainty in identifying early-stage manifestations of diabetic retinopathy. This finding suggests the presence of minimal retinal abnormalities, such as microaneurysms, and warrants standard follow-up and clinical correlation."
+15,1,1,0.791,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.791
+4. Explanation: The CNN analysis of Case ID 15 indicates a predicted diabetic retinopathy grade of 1, corresponding to a mild stage, with a model confidence score of 0.791.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and should not replace a comprehensive clinical examination by a qualified ophthalmologist or optometrist."
+15,1,1,0.791,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 15
+* **AI Model Prediction:** DR Grade 1 (Mild)
+* **Model Confidence:** 0.791
+
+**Notice:** 
+This report is generated based on an automated AI analysis of retinal image data. **This is not a confirmed medical diagnosis.** The AI model has detected potential indicators consistent with Mild Diabetic Retinopathy (Grade 1), but automated screening tools have limitations and cannot replace a comprehensive clinical evaluation. 
+
+**Required Action:**
+This screening result requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive dilated eye examination for clinical diagnosis and management recommendations."
+16,1,1,0.963,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 16
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.963
+
+**Findings and Assessment:**
+Automated analysis of retinal image Case ID 16 indicates the presence of mild diabetic retinopathy (DR Grade 1). The deep learning model generated this classification with a high confidence score of 0.963. This finding suggests the presence of early, non-proliferative manifestations of diabetic retinopathy, such as isolated microaneurysms. 
+
+**Recommendation:**
+Clinical correlation and formal ophthalmological evaluation are advised for confirmation and ongoing monitoring in accordance with standard diabetic eye screening protocols."
+16,1,1,0.963,few_shot,"Predicted stage: Mild
+Model confidence: 0.963
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+16,1,1,0.963,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 16
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.963
+
+**Findings and Interpretation:**
+The Convolutional Neural Network (CNN) analysis of the retinal image for Case ID 16 has resulted in a predicted Diabetic Retinopathy (DR) Grade of 1, corresponding to the Mild stage of the disease. The model exhibits a high confidence score of 0.963 in this classification. This indicates the likely presence of early, non-proliferative changes, such as microaneurysms, characteristic of mild diabetic retinopathy. Clinical correlation and follow-up according to standard screening protocols are recommended."
+16,1,1,0.963,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.963
+4. Explanation: The CNN analysis for Case ID 16 indicates a predicted Diabetic Retinopathy grade of 1, corresponding to the Mild stage, with a model confidence of 0.963.
+5. Disclaimer: This AI-generated screening report is for informational and assistance purposes only and does not constitute a definitive medical diagnosis. A qualified healthcare professional must review all findings."
+16,1,1,0.963,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 16
+* **AI-Generated Prediction:** Mild Diabetic Retinopathy (DR Grade: 1)
+* **Model Confidence:** 0.963
+
+**Notice:** 
+This report is generated based solely on an automated artificial intelligence (CNN) image analysis. **This is not a confirmed clinical diagnosis.** The algorithm has detected indicators suggestive of Mild Diabetic Retinopathy, but this output does not replace a comprehensive clinical examination. No specific retinal lesions, symptoms, or patient history have been clinically verified. 
+
+**Action Required:**
+All AI-generated screenings must be reviewed and validated by a qualified ophthalmologist or optometrist to confirm any findings and determine appropriate clinical management."
+17,1,1,0.914,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+**Case ID:** 17  
+**Predicted DR Grade:** 1  
+**Predicted Stage:** Mild  
+**Model Confidence:** 0.914 (91.4%)  
+
+**Findings & Interpretation:**  
+Analysis of the retinal imaging for Case ID resulted in a predicted Diabetic Retinopathy grade of 1, corresponding to a mild stage of the disease. The artificial intelligence model generated this classification with a high confidence score of 0.914. This finding suggests the presence of early, non-proliferative signs of diabetic retinopathy, such as microaneurysms. 
+
+**Recommendation:**  
+Clinical correlation and review by an eye care specialist are advised for confirmation and determination of appropriate follow-up intervals."
+17,1,1,0.914,few_shot,"Predicted stage: Mild
+Model confidence: 0.914
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+17,1,1,0.914,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 17
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.914
+
+**Findings and Explanation:**
+Based on the image analysis, the Convolutional Neural Network (CNN) has classified the case as Diabetic Retinopathy Grade 1, corresponding to the mild stage of the disease. The model's prediction is accompanied by a high confidence score of 0.914, indicating strong certainty in detecting early, mild-stage indicators of diabetic retinopathy. Clinical correlation and ongoing monitoring are recommended in accordance with standard screening protocols for mild diabetic retinopathy."
+17,1,1,0.914,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.914
+4. Explanation: The CNN analysis of Case ID 17 indicates the presence of mild diabetic retinopathy (Grade 1) with a model confidence score of 0.914.
+5. Disclaimer: This report is generated by an AI-based screening tool and is intended to assist healthcare professionals. It should not replace a comprehensive clinical examination by an eye care specialist."
+17,1,1,0.914,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 17
+* **Screening Result:** Predicted DR Grade: 1 (Mild)
+* **Model Confidence:** 0.914
+
+**Disclaimer:**
+This report is generated by an automated Convolutional Neural Network (CNN) based on image analysis only. **This is an AI-generated prediction and does not constitute a confirmed medical diagnosis.** 
+
+The screening tool has indicated a finding consistent with Mild Diabetic Retinopathy (Grade 1) with a confidence score of 0.914. However, automated screening cannot replace a comprehensive clinical evaluation. 
+
+**Next Steps:**
+* This result requires review and verification by a qualified eye-care professional (such as an optometrist or ophthalmologist).
+* Please schedule a comprehensive dilated eye examination for definitive diagnosis and appropriate management recommendations."
+18,1,1,0.809,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 18
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.809 (80.9%)
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis, the screening image for Case ID 18 is classified as Mild Diabetic Retinopathy (DR Grade 1). The model generated this classification with a confidence score of 0.809. This finding suggests the potential presence of early-stage non-proliferative diabetic retinopathy, such as microaneurysms. 
+
+**Recommendation:**
+Automated screening results should be correlated with clinical evaluation. Referral to an eye care professional is recommended for a comprehensive dilated eye examination and definitive diagnosis."
+18,1,1,0.809,few_shot,"Predicted stage: Mild
+Model confidence: 0.809
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+18,1,1,0.809,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 18
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.809
+
+**Findings & Explanation:**
+Based on the CNN analysis of the retinal imagery, the model has classified this case as Diabetic Retinopathy (DR) Grade 1, corresponding to a mild stage of the disease. This grade typically indicates the presence of early, non-proliferative changes, such as mild microaneurysms. The model's prediction is generated with a confidence score of 0.809, reflecting a moderately high certainty in the classification based on the learned feature patterns. Clinical correlation and follow-up examinations are recommended to confirm these findings."
+18,1,1,0.809,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.809
+4. Explanation: Based on the CNN analysis for Case ID 18, the model has detected features consistent with a predicted diabetic retinopathy grade of 1, corresponding to the Mild stage, with a confidence score of 0.809.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and does not replace a definitive medical diagnosis. All results should be verified by a qualified ophthalmologist or clinician."
+18,1,1,0.809,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 18
+* **AI Model Prediction:** Diabetic Retinopathy Grade 1 (Mild)
+* **Model Confidence:** 0.809
+
+**Disclaimer and Notice:**
+This report is generated automatically based on an artificial intelligence (CNN) screening model and is intended for informational and assistive purposes only. 
+
+* This output **does not** constitute a confirmed medical diagnosis. 
+* No specific retinal findings, symptoms, or patient clinical details have been evaluated or incorporated into this automated assessment.
+* The findings generated by the AI model require careful review, clinical correlation, and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) before any medical decisions or treatment plans are made."
+19,1,1,0.876,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 19
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.876
+
+**Findings & Interpretation:**
+Automated analysis of the retinal image for Case ID 19 indicates the presence of mild diabetic retinopathy (Grade 1). The convolutional neural network generated this classification with a confidence score of 0.876. This finding suggests early, non-proliferative changes characteristic of mild disease, warranting routine clinical correlation and appropriate follow-up as per standard screening protocols."
+19,1,1,0.876,few_shot,"Predicted stage: Mild
+Model confidence: 0.876
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+19,1,1,0.876,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 19
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.876
+
+**Findings & Explanation:**
+Based on the automated image analysis, the Convolutional Neural Network (CNN) has classified the retinal scan as Diabetic Retinopathy (DR) Grade 1, corresponding to the mild stage of the disease. The model's prediction is accompanied by a confidence score of 0.876, indicating a strong level of certainty in the detection of early-stage microvascular abnormalities consistent with mild non-proliferative diabetic retinopathy. Clinical correlation and a comprehensive ophthalmologic evaluation are recommended to confirm these findings and guide appropriate follow-up care."
+19,1,1,0.876,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.876
+4. Explanation: The AI model analyzed the retinal image for Case ID 19 and predicted a diabetic retinopathy grade of 1, corresponding to the Mild stage, with a confidence score of 0.876.
+5. Disclaimer: This is an AI-generated screening report based on CNN predictions for Case ID 19. It is not a definitive medical diagnosis. All results should be reviewed and confirmed by a qualified healthcare professional."
+19,1,1,0.876,safety_constrained,"**AI-Generated Screening Report**
+
+* **Case ID:** 19
+* **Screening Modality:** Automated Convolutional Neural Network (CNN) Analysis
+* **Prediction:** Diabetic Retinopathy (DR) Grade 1 (Mild)
+* **Model Confidence:** 0.876
+
+**Notice and Disclaimer:**
+This report is generated automatically based on an AI model prediction and does not constitute a confirmed medical diagnosis. No specific retinal findings, symptoms, or patient history have been evaluated or incorporated into this output. 
+
+This screening result is intended solely as a preliminary estimate and **requires mandatory review and confirmation by a qualified eye-care professional** (such as an optometrist or ophthalmologist) to determine clinical status and appropriate management."
+20,1,1,0.862,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 20
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.862
+
+**Clinical Summary:**
+Automated image analysis using the designated Convolutional Neural Network (CNN) evaluated the submitted retinal imagery for signs of diabetic retinopathy. The model classified the case as DR Grade 1, corresponding to a predicted stage of **Mild** diabetic retinopathy, with a prediction confidence of 0.862. This finding suggests the potential presence of early, non-proliferative manifestations (such as microaneurysms). Clinical correlation and human expert review are recommended to confirm the diagnosis and determine appropriate follow-up care."
+20,1,1,0.862,few_shot,"Predicted stage: Mild
+Model confidence: 0.862
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+20,1,1,0.862,chain_of_thought,"Based on the AI-based diabetic retinopathy screening analysis for Case ID 20, the convolutional neural network predicts a Diabetic Retinopathy (DR) Grade of 1, corresponding to the Mild stage. The model operates with a confidence score of 0.862 in this classification. This finding suggests the early presence of mild non-proliferative changes, and clinical correlation is recommended for confirmation and ongoing monitoring."
+20,1,1,0.862,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.862
+4. Explanation: The analysis of Case ID 20 using the AI screening model indicates a predicted diabetic retinopathy grade of 1, corresponding to a mild stage, with a model confidence score of 0.862.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and should not replace a comprehensive clinical examination by a qualified ophthalmologist or optometrist."
+20,1,1,0.862,safety_constrained,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 20
+* **AI-Generated Prediction:** Mild Diabetic Retinopathy (DR Grade: 1)
+* **Model Confidence:** 0.862
+
+**Important Notice:**
+This report contains an AI-generated screening prediction based on automated image analysis. **This is not a confirmed medical diagnosis.** The algorithm's output indicates findings suggestive of Mild Diabetic Retinopathy, but AI-based screening tools have limitations and cannot replace a comprehensive clinical examination. 
+
+No specific symptoms, retinal lesions, or patient history were evaluated or diagnosed by this system. 
+
+**Next Steps:**
+* This screening result **requires professional review** by a qualified eye-care specialist (optometrist or ophthalmologist).
+* Please schedule a comprehensive dilated eye examination for clinical confirmation, proper grading, and appropriate management planning."
+21,2,2,0.848,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 21
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 848 (84.8%)
+
+**Findings and Assessment:**
+Automated analysis of retinal image Case ID 21 using the designated convolutional neural network classifies the case as Moderate Diabetic Retinopathy (DR Grade 2). The model generated this classification with a confidence score of 0.848. 
+
+**Recommendation:**
+Based on the automated screening result indicating moderate non-proliferative diabetic retinopathy, formal ophthalmological evaluation and clinical correlation are recommended for comprehensive staging and management."
+21,2,2,0.848,few_shot,"Predicted stage: Moderate
+Model confidence: 0.848
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+21,2,2,0.848,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 21
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.848 (84.8%)
+
+**Clinical Explanation:**
+The convolutional neural network (CNN) analysis of the retinal imagery for Case ID 21 yields a predicted Diabetic Retinopathy (DR) Grade of 2, corresponding to a Moderate stage of the disease. The model's confidence score of 0.848 indicates a moderately high level of certainty in this classification based on the learned feature representations of the input scan. This finding warrants referral for a comprehensive dilated eye examination to confirm the presence and severity of moderate non-proliferative diabetic retinopathy."
+21,2,2,0.848,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.848
+4. Explanation: The Convolutional Neural Network (CNN) analysis for Case ID 21 resulted in a predicted diabetic retinopathy grade of 2, corresponding to the Moderate stage, with a model confidence score of 0.848 based on the provided screening data.
+5. Disclaimer: This report is generated by an AI-based screening tool and should be reviewed by a qualified healthcare professional for formal diagnosis and clinical management."
+21,2,2,0.848,safety_constrained,"**AI-Generated Screening Report (Draft)**
+
+* **Case ID:** 21
+* **Screening Date:** [Insert Date]
+* **Assessment Type:** Automated Diabetic Retinopathy Screening
+
+**AI Prediction Results:**
+* **Predicted Diabetic Retinopathy Grade:** 2
+* **Predicted Diabetic Retinopathy Stage:** Moderate
+* **Model Confidence:** 0.848 (84.8%)
+
+**Important Notice:**
+This report is generated automatically based on an artificial intelligence (AI) model prediction. It does **not** constitute a confirmed medical diagnosis, nor does it replace a comprehensive clinical examination. No specific retinal findings, symptoms, or patient history have been evaluated or confirmed by this tool. 
+
+**Recommendation:**
+This AI-generated screening prediction requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a formal clinical evaluation for definitive diagnosis and personalized management."
+22,2,1,0.466,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 22
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.466 (46.6%)
+
+**Findings & Interpretation:**
+Automated image analysis of the provided retinal scan indicates the presence of mild diabetic retinopathy (Grade 1). The deep learning model generated this classification with a confidence score of 0.466. This finding suggests early, non-proliferative changes characteristic of mild diabetic retinopathy. 
+
+**Recommendation:**
+Given the automated screening result and model confidence level, clinical correlation and review by an eye care professional are recommended for comprehensive evaluation and management."
+22,2,1,0.466,few_shot,"Predicted stage: Mild
+Model confidence: 0.466
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+22,2,1,0.466,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 22
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.466
+
+**Findings & Interpretation:**
+Based on the deep learning analysis, the input retinal image has been classified as Diabetic Retinopathy (DR) Grade 1, corresponding to a mild stage of the disease. This grade typically indicates the presence of mild non-proliferative changes, such as microaneurysms. 
+
+However, the model output indicates a confidence score of 0.466 (46.6%). This relatively low confidence level reflects uncertainty in the automated classification, suggesting that the image features are borderline or ambiguous. Consequently, this screening result should be interpreted with caution and warrants a manual review by a qualified ophthalmologist or clinician for definitive diagnosis and staging."
+22,2,1,0.466,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.466
+4. Explanation: The CNN model analyzed the retinal image for Case ID 22 and predicted a Diabetic Retinopathy grade of 1, corresponding to a Mild stage of diabetic retinopathy, with a model confidence of 0.466.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and should not replace a comprehensive clinical examination by a qualified ophthalmologist or optometrist."
+22,2,1,0.466,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 22
+* **Report Date:** Generated automatically based on image analysis
+
+**Screening Results:**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 0.466
+
+**Important Notice:**
+This report is generated by an artificial intelligence (AI) screening model and provides a preliminary prediction only. **This is not a confirmed medical diagnosis.** The AI prediction indicates findings consistent with mild diabetic retinopathy (Grade 1), but automated screening tools have limitations and cannot replace a comprehensive clinical examination. 
+
+**Next Steps:**
+* This result requires review and verification by a qualified eye-care professional (such as an optometrist or ophthalmologist).
+* Please schedule a comprehensive dilated eye examination for an accurate diagnosis and appropriate management plan."
+23,2,3,0.517,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 23
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.517 (51.7%)
+
+**Clinical Summary:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal image, the case is classified as Grade 3, corresponding to Severe diabetic retinopathy. The model generated this classification with a confidence score of 0.517. Due to the severity of the predicted stage and the moderate confidence level, manual expert review and ophthalmologic confirmation are recommended for clinical management and staging verification."
+23,2,3,0.517,few_shot,"Predicted stage: Severe
+Model confidence: 0.517
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+23,2,3,0.517,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 23
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.517
+
+**Clinical Explanation:**
+Based on the convolutional neural network (CNN) analysis, the screening image has been classified as Diabetic Retinopathy Grade 3, corresponding to the severe stage of the disease. This indicates the presence of advanced pathological features characteristic of severe non-proliferative diabetic retinopathy. The model generated this classification with a confidence score of 0.517, reflecting a moderate level of certainty in the prediction. Due to the severe stage classification, prompt referral to an ophthalmologist for a comprehensive dilated eye examination and timely clinical management is strongly recommended."
+23,2,3,0.517,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.517
+4. Explanation: The AI model evaluated the retinal image for Case ID 23 and detected features consistent with severe diabetic retinopathy, resulting in a predicted DR grade of 3 with a model confidence of 0.517.
+5. Disclaimer: This AI-generated report is intended for screening support only and must be reviewed by a qualified healthcare professional for a definitive diagnosis and treatment plan."
+23,2,3,0.517,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 23
+* **Screening Modality:** Automated CNN Analysis
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.517
+
+**Disclaimer and Notice:**
+This report contains an AI-generated prediction and does not constitute a confirmed medical diagnosis. The automated analysis indicates findings consistent with Severe Diabetic Retinopathy (Grade 3); however, this result is based solely on algorithmic evaluation and has a moderate confidence level (0.517). 
+
+This output does not include symptom assessments, specific retinal lesion identifications, or patient-specific clinical history. 
+
+**Next Steps:**
+This screening result requires immediate review and clinical correlation by a qualified ophthalmologist or eye-care professional for comprehensive examination, confirmation, and appropriate management."
+24,2,2,0.755,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 24
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 75.5% (0.755)
+
+**Findings and Interpretation:**
+Automated image analysis using the designated Convolutional Neural Network (CNN) classified the retinal image for diabetic retinopathy (DR) as Grade 2, corresponding to a Moderate stage of the disease. The model's classification was generated with a confidence score of 0.755. This finding suggests the presence of characteristic moderate non-proliferative diabetic retinopathy features, warranting further clinical review and potential referral for a comprehensive ophthalmologic examination in accordance with standard screening protocols."
+24,2,2,0.755,few_shot,"Predicted stage: Moderate
+Model confidence: 0.755
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+24,2,2,0.755,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 24
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.755
+
+**Findings and Explanation:**
+Based on the image analysis, the Convolutional Neural Network (CNN) has classified the case as Diabetic Retinopathy Grade 2, corresponding to a moderate stage of the disease. This grade typically indicates the presence of more than just microaneurysms, such as moderate numbers of hemorrhages, microaneurysms, or hard exudates. The model reached this conclusion with a confidence score of 0.755, reflecting a moderate-to-high certainty in the classification based on the learned feature representations. Clinical correlation and review by an ophthalmologist are recommended to confirm these findings."
+24,2,2,0.755,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.755
+4. Explanation: Based on the CNN analysis for Case ID 24, the screening indicates a predicted diabetic retinopathy grade of 2, corresponding to the Moderate stage, with a model confidence score of 0.755.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and should not be used as a sole diagnostic tool. Clinical correlation and evaluation by a qualified ophthalmologist or optometrist are required for definitive diagnosis and treatment."
+24,2,2,0.755,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 24
+* **AI Model Prediction:** Moderate Diabetic Retinopathy (DR Grade: 2)
+* **Model Confidence:** 0.755
+
+**Notice:** 
+This report is generated automatically based on an artificial intelligence (AI) screening algorithm. It does not constitute a confirmed medical diagnosis, nor does it detail specific retinal findings or clinical symptoms. 
+
+The AI-generated prediction indicates findings consistent with moderate diabetic retinopathy and requires comprehensive review, clinical correlation, and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please consult a healthcare provider for proper evaluation and management."
+25,2,1,0.634,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 25
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 63.4% (0.634)
+
+**Findings and Interpretation:**
+Automated image analysis of the provided retinal scan indicates the presence of mild non-proliferative diabetic retinopathy (Grade 1), characterized by early, non-vision-threatening signs such as microaneurysms. The convolutional neural network generated this classification with a confidence score of 0.634. 
+
+**Recommendation:**
+Clinical correlation and review by an eye care professional are recommended to confirm findings and determine appropriate follow-up intervals in accordance with standard diabetic eye screening protocols."
+25,2,1,0.634,few_shot,"Predicted stage: Mild
+Model confidence: 0.634
+Explanation: The CNN model predicted Mild.
+Disclaimer: AI-generated result; professional review is required."
+25,2,1,0.634,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 25
+* **Predicted DR Grade:** 1
+* **Predicted DR Stage:** Mild
+* **Model Confidence:** 63.4%
+
+**Findings and Explanation:**
+The Convolutional Neural Network (CNN) analyzed the retinal image for signs of diabetic retinopathy and classified the case as Grade 1, corresponding to a mild stage of the disease. This grade typically indicates the presence of minimal retinal abnormalities, such as a few microaneurysms. The model's confidence score of 0.634 reflects a moderate level of certainty in this classification, suggesting that while mild indicators are detected, clinical correlation and human expert review are recommended to confirm the diagnosis and determine appropriate follow-up care."
+25,2,1,0.634,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 1
+2. Predicted DR Stage: Mild
+3. Model Confidence: 0.634
+4. Explanation: The Convolutional Neural Network (CNN) analysis for Case ID 25 resulted in a predicted diabetic retinopathy grade of 1, corresponding to the Mild stage, with a model confidence score of 0.634.
+5. Disclaimer: This AI-generated screening report is intended to assist healthcare professionals and should not be used as a sole diagnostic tool. A comprehensive clinical evaluation by a qualified specialist is required for final diagnosis and treatment planning."
+25,2,1,0.634,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 25
+* **Screening Date:** Generated automatically
+* **AI Model Prediction:** Diabetic Retinopathy Grade 1 (Mild)
+* **Model Confidence:** 0.634 (63.4%)
+
+**Notice and Disclaimer:**
+This report contains an automated prediction generated by a convolutional neural network (CNN) for the purpose of diabetic retinopathy screening. **This is an AI-generated prediction and does not constitute a confirmed medical diagnosis.** 
+
+The current analysis suggests the potential presence of mild diabetic retinopathy (Grade 1) based on image pattern recognition. However, automated screening tools have limitations and can yield false positives or false negatives. 
+
+**Required Action:**
+* This preliminary result **must be reviewed and verified by a qualified eye-care professional** (such as an optometrist or ophthalmologist).
+* No definitive treatment or clinical decisions should be made based solely on this automated output. 
+* Please schedule a comprehensive dilated eye examination for proper clinical evaluation, diagnosis, and personalized management."
+26,2,3,0.497,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 26
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 497 (0.497)
+
+**Findings and Interpretation:**
+Automated image analysis of Case ID 26 classifies the retinal screening as indicative of Severe Non-Proliferative Diabetic Retinopathy (DR Grade 3). The model generated this classification with a confidence score of 0.497. This finding suggests the presence of advanced retinal microvascular changes consistent with severe diabetic retinopathy, warranting urgent referral to an ophthalmology specialist for comprehensive clinical evaluation and management."
+26,2,3,0.497,few_shot,"Predicted stage: Severe
+Model confidence: 0.497
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+26,2,3,0.497,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 26
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.497
+
+**Report:**
+The Convolutional Neural Network (CNN) analysis for Case ID 26 indicates a predicted Diabetic Retinopathy (DR) Grade of 3, corresponding to the Severe stage of the disease. The model's confidence score for this classification is 0.497. This confidence level reflects moderate certainty in the automated assessment, suggesting that while significant indicators consistent with severe DR are detected, the result should be interpreted with clinical correlation and verification by an expert ophthalmologist."
+26,2,3,0.497,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.497
+4. Explanation: The AI model analyzed the retinal image for Case ID 26 and predicted a diabetic retinopathy grade of 3, corresponding to the severe stage, with a confidence score of 0.497.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis for Case ID 26. It is not a definitive medical diagnosis. All automated screening results should be reviewed and verified by a qualified healthcare professional."
+26,2,3,0.497,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 26
+* **Report Date:** Generated via automated screening tool
+* **Disclaimer:** This is an AI-generated prediction and does not constitute a confirmed medical diagnosis. The findings require mandatory review and confirmation by a qualified eye-care professional.
+
+---
+
+### **AI Screening Results**
+
+* **Predicted Diabetic Retinopathy (DR) Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.497 (Moderate confidence)
+
+---
+
+### **Clinical Interpretation & Recommendations**
+
+1. **Screening Outcome:** The automated convolutional neural network (CNN) analysis has flagged this retinal image with a predicted classification of **Severe Diabetic Retinopathy (Grade 3)**. 
+2. **Confidence Level:** The model generated a confidence score of 0.497. 
+3. **Mandatory Action Required:** Due to the severity of the predicted stage, this case must be referred promptly to an ophthalmologist or optometrist for a comprehensive dilated eye examination. 
+4. **Limitations:** This system evaluates digital retinal images using algorithmic pattern recognition only. It does"
+27,2,2,0.95,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 27
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.95
+
+**Findings and Assessment:**
+Automated image analysis of the provided retinal scan indicates the presence of moderate diabetic retinopathy (DR Grade 2). The deep learning model generated this classification with a high confidence score of 0.95. 
+
+**Recommendation:**
+Based on the automated screening results indicating moderate non-proliferative diabetic retinopathy, formal clinical evaluation by an ophthalmologist or optometrist is recommended for comprehensive dilated eye examination and further management planning."
+27,2,2,0.95,few_shot,"Predicted stage: Moderate
+Model confidence: 0.95
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+27,2,2,0.95,chain_of_thought,"Based on the AI-based diabetic retinopathy screening analysis for Case ID 27, the Convolutional Neural Network (CNN) has predicted a Diabetic Retinopathy (DR) Grade of 2, corresponding to a Moderate stage of the disease. The model's prediction is associated with a high confidence score of 0.95. This classification indicates the presence of more than just mild microaneurysms, specifically pointing to moderate non-proliferative diabetic retinopathy findings such as dot-and-blot hemorrhages, hard exudates, or microvascular abnormalities within the evaluated retinal imagery."
+27,2,2,0.95,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.95
+4. Explanation: The Convolutional Neural Network (CNN) analyzed the retinal image for Case ID 27 and detected signs consistent with moderate diabetic retinopathy, yielding a predicted DR grade of 2 with a model confidence of 0.95.
+5. Disclaimer: This AI-generated report is intended for screening assistance only and does not constitute a definitive medical diagnosis. All results should be reviewed by a qualified healthcare professional."
+27,2,2,0.95,safety_constrained,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 27
+* **Screening Date:** Generated via automated system
+* **AI Model Prediction:** Diabetic Retinopathy Grade 2 (Moderate)
+* **Model Confidence:** 0.95
+
+---
+
+**Disclaimer and Notice:**
+This report is generated by an automated AI screening tool based on image analysis and does not constitute a definitive medical diagnosis. The CNN model has produced a prediction indicating the potential presence of moderate diabetic retinopathy (Grade 2) with a confidence score of 0.95. 
+
+However, AI-based predictions have limitations and cannot replace a comprehensive clinical examination. No specific retinal findings, symptoms, or patient history have been clinically verified or diagnosed by this system. 
+
+**Required Action:**
+This screening result is for informational support only and **requires mandatory review and confirmation by a qualified eye-care professional** (such as an optometrist or ophthalmologist). Please schedule a comprehensive dilated eye examination as soon as possible for proper evaluation, diagnosis, and management planning."
+28,2,2,0.741,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 28
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.741
+
+**Findings and Interpretation:**
+Automated analysis of the retinal imagery for Case ID resulted in a predicted diabetic retinopathy grade of 2, corresponding to a moderate stage of diabetic retinopathy. The convolutional neural network generated this classification with a confidence score of 0.741. This finding indicates the presence of moderate non-proliferative changes characteristic of diabetic retinopathy, warranting further clinical evaluation and appropriate follow-up care as per standard screening protocols."
+28,2,2,0.741,few_shot,"Predicted stage: Moderate
+Model confidence: 0.741
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+28,2,2,0.741,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 28
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.741
+
+**Findings & Explanation:**
+Based on the automated image analysis, the deep learning model classifies the case as Diabetic Retinopathy (DR) Grade 2, corresponding to a moderate stage of the disease. This grade typically indicates the presence of more than just mild microaneurysms, such as initial intraretinal hemorrhages, hard exudates, or cotton-wool spots. The model generated this classification with a confidence score of 0.741, reflecting a moderate-to-high certainty in the assessment. This screening result highlights the need for a comprehensive clinical evaluation by an eye care specialist for confirmation and management."
+28,2,2,0.741,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.741
+4. Explanation: The convolutional neural network analyzed the retinal image for Case ID 28 and classified it as Diabetic Retinopathy Grade 2, corresponding to a Moderate stage, with a confidence score of 0.741.
+5. Disclaimer: This AI-generated screening report is intended for decision support only and does not constitute a definitive medical diagnosis. All results should be reviewed by a qualified healthcare professional."
+28,2,2,0.741,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 28
+* **Analysis Date:** Generated via automated screening tool
+* **AI Screening Result:** Predicted Diabetic Retinopathy (DR) Grade: 2 (Moderate)
+* **Model Confidence:** 0.741
+
+**Important Notice and Disclaimer:**
+This report contains an automated prediction generated by a convolutional neural network (CNN) and does not constitute a confirmed medical diagnosis. The AI model has estimated a finding consistent with moderate diabetic retinopathy with a confidence score of 0.741; however, automated systems have limitations and are subject to misclassification. 
+
+No specific retinal symptoms, physical findings, or patient history have been evaluated or incorporated into this output. This screening result must be reviewed and interpreted by a qualified ophthalmologist, optometrist, or appropriate eye-care professional for a definitive diagnosis and comprehensive clinical evaluation."
+29,2,3,0.866,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 29
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.866 (86.6%)
+
+**Clinical Summary:**
+Automated image analysis of Case ID 29 indicates features consistent with Severe Non-Proliferative Diabetic Retinopathy (DR Grade 3), supported by a model confidence score of 0.866. This classification suggests the presence of advanced retinal microvascular changes characteristic of severe non-proliferative disease. 
+
+**Recommendation:**
+Clinical correlation and prompt referral to an ophthalmologist or retinal specialist are recommended for a comprehensive dilated eye examination and management planning."
+29,2,3,0.866,few_shot,"Predicted stage: Severe
+Model confidence: 0.866
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+29,2,3,0.866,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 29
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 866 (86.6%)
+
+**Clinical Explanation:**
+The convolutional neural network (CNN) analysis for Case ID 29 indicates a Diabetic Retinopathy (DR) Grade of 3, corresponding to a Severe stage of the disease. The model exhibits a high confidence level of 86.6% in this classification. This prediction suggests the presence of advanced characteristic retinal lesions associated with severe non-proliferative diabetic retinopathy, warranting urgent ophthalmologic evaluation and management."
+29,2,3,0.866,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.866
+4. Explanation: The Convolution Neural Network (CNN) analysis for Case ID 29 classifies the retinal image as Diabetic Retinopathy Grade 3, corresponding to a Severe stage, with a model confidence score of 0.866.
+5. Disclaimer: This is an AI-generated screening report based on automated CNN analysis for Case ID 29 and should not be used as a definitive clinical diagnosis. All results require review and confirmation by a qualified healthcare professional."
+29,2,3,0.866,safety_constrained,"**AI-Generated Screening Report**
+
+* **Case ID:** 29
+* **Screening Type:** Diabetic Retinopathy (DR) AI Screening Assessment
+
+**AI Prediction Results:**
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.866
+
+**Important Notice:**
+This report is generated automatically based on an artificial intelligence (AI) model prediction and does not constitute a confirmed medical diagnosis. The AI analysis has detected patterns consistent with Severe Diabetic Retinopathy (Grade 3) with a model confidence of 0.866. 
+
+No specific retinal findings, symptoms, or patient history are included in this automated assessment. 
+
+**Next Steps:**
+This AI-generated prediction requires immediate review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive dilated eye examination as soon as possible for proper clinical evaluation and management."
+30,2,2,0.888,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 30
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 888 (0.888)
+
+**Findings and Interpretation:**
+Automated image analysis utilizing the specified convolutional neural network (CNN) classified the screening images as indicative of moderate diabetic retinopathy (Grade 2). The model generated this classification with a confidence score of 0.888. Based on these algorithmic findings, clinical correlation and a comprehensive dilated eye examination by an ophthalmologist or optometrist are recommended for formal staging and management planning."
+30,2,2,0.888,few_shot,"Predicted stage: Moderate
+Model confidence: 0.888
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+30,2,2,0.888,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 30
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.888
+
+**Clinical Explanation:**
+The AI-based screening model analyzed the retinal imagery for Case ID 30 and classified the findings as Diabetic Retinopathy (DR) Grade 2, corresponding to a moderate stage of the disease. This grade typically indicates the presence of more than just mild microaneurysms, such as moderate numbers of hemorrhages, microaneurysms, hard exudates, or cotton-wool spots. The model's classification was made with a confidence score of 0.888, reflecting a strong certainty in the predicted severity level based on the learned feature representations. Further ophthalmologic evaluation is recommended to confirm these findings and determine appropriate patient management."
+30,2,2,0.888,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.888
+4. Explanation: The AI screening model has analyzed the retinal image for Case ID 30 and classified the findings as Diabetic Retinopathy Grade 2, corresponding to a Moderate stage, with a model confidence score of 0.888.
+5. Disclaimer: This automated AI-generated report is intended for screening support only and does not constitute a definitive medical diagnosis. All results should be reviewed and confirmed by a qualified healthcare professional."
+30,2,2,0.888,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 30
+* **Screening Date:** Generated automatically
+* **AI Model Prediction:** Diabetic Retinopathy Grade 2 (Moderate)
+* **Model Confidence:** 0.888
+
+**Notice:**
+This report is generated by an artificial intelligence screening tool based on image analysis only. **This is not a confirmed medical diagnosis.** The AI prediction indicates findings consistent with moderate diabetic retinopathy (Grade 2) with a confidence score of 0.888, but this system cannot examine symptoms, take a full medical history, or replace a comprehensive clinical examination. 
+
+**Recommendation:**
+The findings generated by this automated screening require prompt review and verification by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive dilated eye examination for definitive diagnosis and appropriate management planning."
+31,3,4,0.734,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 31
+* **Predicted DR Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy
+* **Model Confidence:** 73.4% (0.734)
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal image, the case is classified as Grade 4, corresponding to Proliferative Diabetic Retinopathy. The model generated this classification with a confidence score of 0.734. This finding suggests the presence of advanced disease features characteristic of proliferative retinopathy, such as neovascularization. 
+
+*Recommendation:* Urgent referral to an ophthalmologist or retina specialist is recommended for a comprehensive dilated eye examination and timely management."
+31,3,4,0.734,few_shot,"Predicted stage: Proliferative
+Model confidence: 0.734
+Explanation: The CNN model predicted Proliferative.
+Disclaimer: AI-generated result; professional review is required."
+31,3,4,0.734,chain_of_thought,"Based on the AI-based screening analysis for Case ID 31, the Convolutional Neural Network (CNN) has evaluated retinal image features to generate the following findings:
+
+- **Predicted DR Grade:** 4
+- **Predicted DR Stage:** Proliferative Diabetic Retinopathy
+- **Model Confidence:** 0.734
+
+**Explanation:** 
+The model's classification of Grade 4 indicates the presence of advanced, proliferative diabetic retinopathy, which is characterized by the potential growth of new blood vessels and other high-risk proliferative features. The model's confidence score of 0.734 reflects a moderate-to-high certainty in this classification based on the learned image patterns. This automated assessment is intended for screening support and requires clinical correlation by a qualified healthcare professional."
+31,3,4,0.734,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 4
+2. Predicted DR Stage: Proliferative
+3. Model Confidence: 0.734
+4. Explanation: Based on the CNN analysis of the retinal image for Case ID 31, the model has detected features consistent with a proliferative stage of diabetic retinopathy, corresponding to Grade 4, with a prediction confidence score of 0.734.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis. It is not a definitive medical diagnosis. All results should be reviewed and confirmed by a qualified ophthalmologist or healthcare professional."
+31,3,4,0.734,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 31
+* **Analysis Type:** Automated AI Image Analysis
+* **Screening Result:** Predicted DR Grade 4 (Proliferative Diabetic Retinopathy)
+* **Model Confidence:** 0.734
+
+**Notice:**
+This report contains an AI-generated prediction only and does not constitute a confirmed medical diagnosis. The automated analysis indicates findings consistent with Proliferative Diabetic Retinopathy, but this output must not be used as a substitute for professional clinical evaluation. 
+
+No specific retinal findings, symptoms, or patient history have been independently verified or incorporated into this automated assessment. 
+
+**Next Steps:**
+This screening result requires immediate review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) for comprehensive evaluation and appropriate clinical management."
+32,3,3,0.988,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 32
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.988 (98.8%)
+
+**Clinical Summary:**
+Automated image analysis utilizing a deep convolutional neural network (CNN) evaluated the provided retinal imagery for signs of diabetic retinopathy. The algorithm classified the case as Grade 3, corresponding to **Severe** diabetic retinopathy, with a high confidence score of 0.988. 
+
+**Recommendation:**
+Given the automated prediction of severe non-proliferative diabetic retinopathy, urgent referral to an ophthalmologist or retina specialist is strongly recommended for a comprehensive dilated eye examination and timely clinical management."
+32,3,3,0.988,few_shot,"Predicted stage: Severe
+Model confidence: 0.988
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+32,3,3,0.988,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 32
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.988
+
+**Findings and Interpretation:**
+Based on the convolutional neural network (CNN) analysis of the retinal imaging for Case ID 32, the model has predicted a Diabetic Retinopathy (DR) Grade of 3, corresponding to the Severe stage. The model exhibits a high confidence score of 0.988 in this classification. This indicates a strong algorithmic certainty regarding the presence of severe disease features, necessitating prompt referral to an eye care specialist for comprehensive clinical evaluation and management."
+32,3,3,0.988,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.988
+4. Explanation: The CNN analysis for Case ID 32 indicates a predicted diabetic retinopathy grade of 3, corresponding to the Severe stage, with a model confidence of 0.988 based solely on the provided screening information.
+5. Disclaimer: This report is generated by an AI-based screening system using provided CNN information only and requires clinical correlation and verification by a qualified healthcare professional."
+32,3,3,0.988,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 32
+* **Screening Modality:** AI-Assisted Retinal Image Analysis
+
+**AI Screening Results:**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.988
+
+**Important Notice:**
+This is an automated AI-generated prediction based on image analysis and does not constitute a confirmed medical diagnosis. The algorithm's output indicates signs consistent with Severe Diabetic Retinopathy (Grade 3), but AI systems have limitations and cannot replace a comprehensive clinical evaluation. 
+
+**Recommendation:**
+This screening result requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive dilated eye examination as soon as possible for definitive diagnosis and appropriate management planning."
+33,3,3,0.938,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+**Case ID:** 33  
+**Predicted DR Grade:** 3  
+**Predicted DR Stage:** Severe  
+**Model Confidence:** 0.938  
+
+**Clinical Summary:**  
+Automated analysis of retinal image Case ID 33 indicates findings consistent with Severe Non-Proliferative Diabetic Retinopathy (Grade 3). The convolutional neural network generated this classification with a high confidence score of 0.938. 
+
+**Recommendation:**  
+Given the AI-predicted classification of severe diabetic retinopathy, urgent ophthalmologic referral is recommended for comprehensive dilated eye examination and management consideration."
+33,3,3,0.938,few_shot,"Predicted stage: Severe
+Model confidence: 0.938
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+33,3,3,0.938,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 33
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.938
+
+**Analysis:**
+The convolutional neural network (CNN) analyzed the retinal image for signs of diabetic retinopathy and classified the case as Grade 3, corresponding to the severe stage of the disease. The model's classification was made with a high confidence score of 0.938. This finding indicates a high likelihood of severe non-proliferative diabetic retinopathy features, necessitating prompt referral to an ophthalmologist for a comprehensive clinical evaluation and timely management."
+33,3,3,0.938,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.938
+4. Explanation: The Convolutional Neural Network (CNN) analysis for Case ID 33 indicates a predicted Diabetic Retinopathy grade of 3, corresponding to the Severe stage, with a model confidence score of 0.938 based on the provided screening image data.
+5. Disclaimer: This report is generated by an AI-based screening tool and is intended to assist healthcare professionals. It does not replace a comprehensive clinical examination or professional medical diagnosis. Please consult an ophthalmologist or qualified clinician for clinical confirmation and management."
+33,3,3,0.938,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 33
+* **Screening Modality:** Automated CNN-based Retinal Image Analysis
+* **Preliminary AI Prediction:** DR Grade 3 (Severe)
+* **Model Confidence:** 0.938
+
+**Notice:** 
+This report contains an AI-generated prediction based solely on algorithmic image analysis. This output does not constitute a confirmed medical diagnosis. The automated system has detected patterns consistent with Severe Diabetic Retinopathy (Grade 3) with a confidence score of 0.938, but this finding has not been verified by a human clinician. 
+
+**Required Action:** 
+This is a preliminary screening result only. It does not replace a comprehensive clinical examination. The patient must be referred to a qualified eye-care professional (such as an optometrist or ophthalmologist) for a definitive evaluation, clinical correlation, and appropriate management."
+34,3,3,0.529,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 34
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.529 (52.9%)
+
+**Findings & Interpretation:**
+Automated analysis of retinal image Case ID 34 classifies the level of diabetic retinopathy as Severe (Grade 3). The convolutional neural network generated this classification with a model confidence score of 0.529. Given the severity of the predicted stage and the moderate confidence level, manual clinical review and ophthalmologic confirmation are recommended for patient management and treatment planning."
+34,3,3,0.529,few_shot,"Predicted stage: Severe
+Model confidence: 0.529
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+34,3,3,0.529,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 34
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.529
+
+**Findings and Interpretation:**
+Based on the convolutional neural network (CNN) analysis, the screening image for Case ID 34 is classified as Diabetic Retinopathy Grade 3, corresponding to a Severe stage of the disease. This classification indicates the presence of advanced retinal findings consistent with severe non-proliferative diabetic retinopathy. 
+
+The model generated this prediction with a confidence score of 0.529. Because this confidence level reflects moderate certainty—bordering on the threshold for decision uncertainty—clinical correlation and human expert review are strongly recommended to confirm the grade and determine the appropriate patient management plan."
+34,3,3,0.529,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.529
+4. Explanation: The convolutional neural network analyzed the retinal images for Case ID 34 and classified the findings as Diabetic Retinopathy Grade 3, corresponding to a Severe stage of the disease, with a model confidence score of 0.529.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis. It is intended to assist healthcare professionals and does not constitute a definitive medical diagnosis. All automated findings must be reviewed and confirmed by a qualified clinician."
+34,3,3,0.529,safety_constrained,"**AI-Generated Screening Report**
+
+* **Case ID:** 34
+* **Screening Type:** Diabetic Retinopathy (DR) AI-Based Screening
+* **Date/Time:** Generated per system request
+
+---
+
+### **AI Screening Prediction**
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.529
+
+---
+
+### **Important Notice & Disclaimer**
+
+This report contains an automated prediction generated by a convolutional neural network (CNN) and **does not constitute a confirmed medical diagnosis**. 
+
+* **No Confirmed Diagnosis:** The findings above represent algorithmic estimations only. No specific clinical symptoms, physical retinal findings, or personal patient details have been diagnosed or incorporated into this output.
+* **Mandatory Professional Review:** This AI-generated prediction requires prompt review, clinical correlation, and official interpretation by a qualified eye-care professional (such as an optometrist or ophthalmologist) to determine actual health status and appropriate management steps."
+35,3,3,0.7,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+**Case ID:** 35  
+**Predicted DR Grade:** 3  
+**Predicted Screening Stage:** Severe Non-Proliferative Diabetic Retinopathy (Severe)  
+**Model Confidence:** 0.7  
+
+**Clinical Summary:**  
+Automated analysis of retinal image Case ID 35 yielded a predicted Diabetic Retinopathy grade of 3, corresponding to the Severe stage. The model generated this classification with a confidence score of 0.7. This finding indicates a high risk of disease progression and warrants prompt referral to an eye care specialist for a comprehensive dilated eye examination and management."
+35,3,3,0.7,few_shot,"Predicted stage: Severe
+Model confidence: 0.7
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+35,3,3,0.7,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 35
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.7
+
+**Clinical Explanation:**
+The Convolutional Neural Network (CNN) analysis of the retinal image for Case ID 35 classifies the findings as Diabetic Retinopathy (DR) Grade 3, corresponding to the Severe stage. This classification indicates the presence of advanced pathological features characteristic of severe non-proliferative diabetic retinopathy, such as extensive intraretinal hemorrhages, venous beading, or prominent microaneurysms in multiple quadrants. The model generated this prediction with a confidence score of 0.7, reflecting moderate certainty in the identified feature patterns."
+35,3,3,0.7,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.7
+4. Explanation: Based on the CNN analysis for Case ID 35, the model has predicted a Diabetic Retinopathy grade of 3, corresponding to a Severe stage, with a model confidence of 0.7.
+5. Disclaimer: This report is generated by an AI-based screening tool and is intended to assist healthcare professionals. It should not replace a comprehensive clinical examination by a qualified ophthalmologist or optometrist."
+35,3,3,0.7,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 35
+* **AI-Generated Screening Result:** Predicted Diabetic Retinopathy (DR) Grade 3 (Severe)
+* **Model Confidence:** 0.7
+
+**Important Notice:**
+This report contains an automated AI-generated prediction based on retinal image analysis and does not constitute a confirmed medical diagnosis. The algorithm has indicated signs consistent with severe diabetic retinopathy, but automated screening tools have limitations and potential for error. 
+
+**Next Steps and Recommendations:**
+* **Immediate Professional Review:** This result requires prompt evaluation by a qualified eye-care professional (such as an optometrist or ophthalmologist) for a comprehensive clinical examination.
+* **No Confirmed Diagnosis:** Symptoms, specific retinal lesions, and definitive staging can only be confirmed through a direct clinical examination by a specialist. 
+
+*This output is generated for screening support only and must be verified by a licensed healthcare provider.*"
+36,3,3,0.88,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 36
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.88
+
+**Findings & Interpretation:**
+Automated analysis using the designated convolutional neural network (CNN) classified the retinal image for Case ID 36 as Grade 3, corresponding to Severe diabetic retinopathy. The model generated this classification with a confidence score of 0.88. This finding indicates a high likelihood of severe disease features present in the image, necessitating prompt referral to an eye care specialist for comprehensive dilated examination and clinical management."
+36,3,3,0.88,few_shot,"Predicted stage: Severe
+Model confidence: 0.88
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+36,3,3,0.88,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 36
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.88
+
+**Clinical Explanation:**
+Based on the image analysis, the convolutional neural network (CNN) has classified the case as Diabetic Retinopathy Grade 3, corresponding to a severe stage of the disease. The model's prediction is accompanied by a confidence score of 0.88, indicating a high level of certainty in the detected pattern of severe retinopathy features. This classification warrants prompt referral to an eye care specialist for comprehensive evaluation and management."
+36,3,3,0.88,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.88
+4. Explanation: The Convolutional Neural Network (CNN) analysis of Case ID 36 indicates a predicted Diabetic Retinopathy grade of 3, corresponding to a Severe stage, with a model confidence score of 0.88.
+5. Disclaimer: This report is generated by an AI-based screening tool and is intended to assist healthcare professionals. It is not a definitive medical diagnosis. All automated findings must be reviewed and confirmed by a qualified ophthalmologist or healthcare provider."
+36,3,3,0.88,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 36
+* **Report Date:** [Current Date]
+* **Screening Modality:** Automated AI Fundus Image Analysis
+
+---
+
+### **AI Screening Results**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.88
+
+---
+
+### **Important Clinical Notice**
+This report is generated by an artificial intelligence (AI) screening system based solely on automated image analysis. **This is an AI-generated prediction and does not constitute a definitive medical diagnosis.** 
+
+* **No Confirmed Diagnosis:** The findings above represent a computational risk assessment only. 
+* **Required Action:** This screening result requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). 
+* **Next Steps:** Please schedule a comprehensive dilated eye examination as soon as possible for proper clinical evaluation, diagnosis, and management planning."
+37,3,3,0.709,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 37
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 70.9%
+
+**Findings & Interpretation:**
+Analysis of the retinal imaging for Case ID 37 by the deep learning screening model indicates features consistent with Severe Diabetic Retinopathy (DR Grade 3). The classification was determined with a model confidence of 0.709. This finding suggests a high likelihood of advanced non-proliferative or early proliferative diabetic changes, which typically warrant prompt ophthalmological evaluation and comprehensive clinical correlation to prevent vision loss."
+37,3,3,0.709,few_shot,"Predicted stage: Severe
+Model confidence: 0.709
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+37,3,3,0.709,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 37
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.709
+
+**Findings and Interpretation:**
+Based on the convolutional neural network (CNN) analysis of the retinal image, the case has been classified as Diabetic Retinopathy (DR) Grade 3, corresponding to a Severe stage of the disease. This grade typically indicates the presence of extensive retinal abnormalities, such as severe intraretinal hemorrhages, microaneurysms, or venous beading in multiple quadrants. The model generated this classification with a confidence score of 0.709. Due to the severity of the predicted stage, prompt ophthalmologic referral for a comprehensive clinical evaluation and timely intervention is strongly recommended."
+37,3,3,0.709,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.709
+4. Explanation: Based on the analysis of Case ID 37, the Convolutional Neural Network (CNN) has predicted a Diabetic Retinopathy grade of 3, corresponding to the Severe stage, with a model confidence of 0.709.
+5. Disclaimer: This report is generated by an AI-based screening tool using automated image analysis (Case ID: 37). The results are intended to assist healthcare professionals and do not constitute a definitive medical diagnosis. All findings should be reviewed and confirmed by a qualified ophthalmologist or healthcare provider."
+37,3,3,0.709,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 37
+* **Screening Date:** Generated automatically
+* **Disclaimer:** This document is an AI-generated screening report and does not constitute a confirmed medical diagnosis. 
+
+---
+
+### **AI Screening Results**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.709
+
+---
+
+### **Clinical Notice**
+The artificial intelligence model has generated a prediction of **Severe** Diabetic Retinopathy (Grade 3) with a confidence score of 0.709 based on the provided retinal image data. 
+
+* **Action Required:** This result is strictly a preliminary screening prediction and **requires mandatory review and confirmation by a qualified eye-care professional** (such as an optometrist or ophthalmologist). 
+* **Limitations:** No specific retinal lesions, symptoms, or patient history have been clinically evaluated or confirmed by this software. 
+
+Please schedule a comprehensive ophthalmic examination promptly for formal diagnosis and clinical management."
+38,3,4,0.624,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 38
+* **Predicted DR Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy (PDR)
+* **Model Confidence:** 62.4% (0.624)
+
+**Clinical Summary:**
+Automated analysis using the provided Convolutional Neural Network (CNN) classifies the retinal imagery for Case ID 38 as Grade 4, corresponding to Proliferative Diabetic Retinopathy. The model generated this assessment with a confidence score of 0.624. 
+
+**Recommendation:**
+Given the automated finding of Proliferative Diabetic Retinopathy, urgent referral to an ophthalmologist or retinal specialist is strongly recommended for a comprehensive clinical evaluation and timely intervention."
+38,3,4,0.624,few_shot,"Predicted stage: Proliferative
+Model confidence: 0.624
+Explanation: The CNN model predicted Proliferative.
+Disclaimer: AI-generated result; professional review is required."
+38,3,4,0.624,chain_of_thought,"Based on the automated image analysis (Case ID: 38), the Convolutional Neural Network (CNN) has classified the screening as **Diabetic Retinopathy Grade 4**, corresponding to the **Proliferative** stage. 
+
+This classification indicates the presence of advanced proliferative diabetic retinopathy, which typically involves neovascularization and/or vitreous/preretinal hemorrhage. The model generated this prediction with a confidence score of **0.624**. Given the severity of the predicted stage and the moderate confidence level, urgent clinical review and a comprehensive dilated eye examination by an ophthalmologist are recommended for confirmation and management."
+38,3,4,0.624,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 4
+2. Predicted DR Stage: Proliferative
+3. Model Confidence: 0.624
+4. Explanation: Based on the CNN analysis, the screening indicates a predicted diabetic retinopathy grade of 4, corresponding to the proliferative stage, with a model confidence of 0.624.
+5. Disclaimer: This report is generated by an AI-based screening tool using supplied CNN information and should be reviewed by a qualified healthcare professional for definitive diagnosis and treatment."
+38,3,4,0.624,safety_constrained,"**AI-Generated Screening Report (Draft)**
+
+* **Case ID:** 38
+* **Screening Date:** [Date]
+* **Report Type:** Automated AI Screening Prediction
+
+**Disclaimer:** This document is an automated AI-generated prediction intended solely to assist in screening workflows. It does not constitute a confirmed medical diagnosis. 
+
+---
+
+### **AI Screening Results**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy
+* **Model Confidence:** 0.624
+
+---
+
+### **Important Notice**
+The artificial intelligence model has generated a screening prediction indicating signs consistent with proliferative diabetic retinopathy (Grade 4) with a confidence level of 62.4%. 
+
+* **No Confirmed Diagnosis:** This automated output is not a definitive diagnosis and cannot replace a comprehensive clinical examination. 
+* **No Symptom or Finding Analysis:** This system does not evaluate specific retinal lesions, visual acuity, or patient clinical history. 
+* **Required Action:** This case requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) to determine"
+39,3,2,0.583,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 39
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.583 (58.3%)
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal image, the screening indicates findings consistent with Moderate Diabetic Retinopathy (Grade 2). The model generated this classification with a confidence score of 0.583. 
+
+**Recommendation:**
+Due to the presence of moderate non-proliferative diabetic retinopathy indicators, clinical correlation and a comprehensive dilated eye examination by an eye care specialist are recommended for definitive diagnosis and management."
+39,3,2,0.583,few_shot,"Predicted stage: Moderate
+Model confidence: 0.583
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+39,3,2,0.583,chain_of_thought,"Based on the AI-based diabetic retinopathy screening analysis for Case ID 39, the convolutional neural network predicts a Diabetic Retinopathy Grade of 2, corresponding to the Moderate stage. The model's confidence score for this classification is 0.583. This indicates a moderate level of certainty in the detection of moderate non-proliferative diabetic retinopathy features based on the evaluated retinal imaging data."
+39,3,2,0.583,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.583
+4. Explanation: Based on the CNN analysis for Case ID 39, the predicted diabetic retinopathy grade is 2, corresponding to the Moderate stage, with a model confidence of 0.583.
+5. Disclaimer: This AI-generated screening report is for informational purposes only and does not replace professional medical diagnosis, advice, or treatment."
+39,3,2,0.583,safety_constrained,"**AI Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 39
+* **Analysis Type:** Automated AI Image Screening
+
+**Screening Result:**
+* **Predicted Diabetic Retinopathy Grade:** 2
+* **Predicted Diabetic Retinopathy Stage:** Moderate
+* **Model Confidence:** 0.583
+
+**Important Notice:**
+This report contains an AI-generated prediction and is provided for screening support purposes only. This output does not constitute a confirmed medical diagnosis. The AI model's assessment indicates findings consistent with moderate diabetic retinopathy, but this prediction must be reviewed and verified by a qualified ophthalmologist or eye-care professional. No specific retinal lesions, symptoms, or patient history have been independently assessed or diagnosed by this system. 
+
+**Next Steps:**
+Please schedule a comprehensive eye examination with an eye-care professional for formal clinical evaluation and confirmation."
+40,3,3,0.483,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 40
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.483
+
+**Findings and Interpretation:**
+Based on the automated image analysis, the screening indicates findings consistent with severe diabetic retinopathy (Grade 3). The convolutional neural network generated this classification with a model confidence score of 0.483. Given the severity of the predicted stage and the associated risk of disease progression, urgent referral to an ophthalmologist or retinal specialist for a comprehensive dilated eye examination and clinical correlation is strongly recommended."
+40,3,3,0.483,few_shot,"Predicted stage: Severe
+Model confidence: 0.483
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+40,3,3,0.483,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 40
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.483
+
+**Findings and Interpretation:**
+Based on the CNN analysis of the retinal image, the case is classified as Diabetic Retinopathy (DR) Grade 3, corresponding to a Severe stage of the disease. This grade typically indicates significant microvascular abnormalities, such as numerous intraretinal hemorrhages, venous beading, or prominent microaneurysms, which require prompt ophthalmologic evaluation and intervention. 
+
+The model's confidence score for this classification is 0.483. This indicates a moderate level of certainty in the prediction, reflecting borderline features within the image that share characteristics with adjacent severity grades. Consequently, manual expert review is strongly recommended to confirm the clinical stage and guide subsequent patient management."
+40,3,3,0.483,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.483
+4. Explanation: Based on the CNN analysis for Case ID 40, the model has predicted a Diabetic Retinopathy grade of 3, corresponding to the Severe stage, with a model confidence score of 0.483.
+5. Disclaimer: This AI-generated screening report is intended for assistive purposes only and must be reviewed and validated by a qualified healthcare professional for formal diagnosis and treatment planning."
+40,3,3,0.483,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 40
+* **Screening Modality:** Automated Image Analysis (CNN)
+
+---
+
+### **Screening Result & Risk Assessment**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.483
+
+---
+
+### **Important Notice**
+This report is generated by an automated artificial intelligence (AI) screening tool based solely on image analysis. **This is not a confirmed medical diagnosis.** 
+
+The AI model has detected patterns suggestive of Severe Diabetic Retinopathy (Grade 3), but this finding is associated with a moderate confidence score and is subject to potential algorithmic limitations and error. 
+
+### **Required Action**
+* **Ophthalmologist Review Required:** This screening result must be evaluated and verified by a qualified eye-care professional (optometrist or ophthalmologist) for a definitive clinical diagnosis and determination of appropriate management.
+* **Further Testing:** Additional clinical examinations and imaging are necessary to confirm the presence and severity of diabetic retinopathy. 
+
+*No specific retinal findings, symptoms, or patient history have"
+41,4,2,0.52,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 41
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.52 (52%)
+
+**Findings and Interpretation:**
+Automated image analysis of the provided retinal screening data classifies the case as Moderate Diabetic Retinopathy (DR Grade 2). The deep learning model generated this assessment with a confidence score of 0.52. This score indicates borderline certainty by the algorithm, reflecting features suggestive of moderate-stage disease (such as the presence of more than just microaneurysms). 
+
+**Recommendation:**
+Due to the moderate classification and the moderate confidence level, manual grading and review by an ophthalmology specialist or clinician is strongly recommended to confirm the findings and determine appropriate clinical management."
+41,4,2,0.52,few_shot,"Predicted stage: Moderate
+Model confidence: 0.52
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+41,4,2,0.52,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 41
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.52
+
+**Findings and Interpretation:**
+Based on the CNN analysis of the retinal image, the case is classified as Diabetic Retinopathy (DR) Grade 2, corresponding to a moderate stage of the disease. This grade typically indicates an increased presence of microaneurysms, retinal hemorrhages, and/or hard exudates compared to mild non-proliferative diabetic retinopathy. 
+
+The model's confidence score for this prediction is 0.52. This relatively low confidence level reflects uncertainty in the feature classification, suggesting that the clinical manifestations observed are borderline or that image quality may limit definitive automated assessment. Consequently, human expert review and correlation with clinical history are strongly recommended to confirm the grade and determine appropriate patient management."
+41,4,2,0.52,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.52
+4. Explanation: Based on the CNN analysis for Case ID 41, the model has predicted a Diabetic Retinopathy grade of 2, corresponding to the Moderate stage, with a confidence score of 0.52.
+5. Disclaimer: This AI-generated screening report is for informational purposes only and does not constitute a definitive medical diagnosis. All results should be reviewed and confirmed by a qualified healthcare professional."
+41,4,2,0.52,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 41
+* **Screening Modality:** Automated CNN Analysis
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.52
+
+**Notice and Disclaimer:**
+This report contains an artificial intelligence (AI)-generated prediction based on image analysis and does not constitute a confirmed medical diagnosis. The findings and staging noted above reflect algorithmic output only and have not been validated by a physician. 
+
+* **Required Action:** This screening result requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) to perform a comprehensive clinical evaluation and determine appropriate patient management."
+42,4,3,0.847,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 42
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 84.7% (0.847)
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal imagery, the screening results indicate the presence of Severe Non-Proliferative Diabetic Retinopathy (DR Grade 3). The model's classification is associated with a confidence score of 0.847. 
+
+**Recommendation:**
+Given the automated finding of severe diabetic retinopathy, immediate referral to an ophthalmologist or a retinal specialist for a comprehensive dilated eye examination and timely clinical management is strongly recommended."
+42,4,3,0.847,few_shot,"Predicted stage: Severe
+Model confidence: 0.847
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+42,4,3,0.847,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 42
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 84.7% (0.847)
+
+**Clinical Explanation:**
+Based on the image analysis, the Convolutional Neural Network (CNN) has classified this case as Diabetic Retinopathy (DR) Grade 3, corresponding to a ""Severe"" stage of the disease. The model's classification is associated with a confidence score of 0.847, indicating a high level of certainty in the detection of severe DR-related retinal features present in the screening image. Further comprehensive ophthalmological evaluation is recommended to confirm these findings and determine appropriate patient management."
+42,4,3,0.847,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.847
+4. Explanation: The Convolutional Neural Network (CNN) analysis for Case ID 42 has classified the retinal image as DR Grade 3, corresponding to the Severe stage of diabetic retinopathy, with a model confidence score of 0.847.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis. It is intended to assist healthcare professionals and should not replace a comprehensive clinical evaluation by a qualified ophthalmologist or optometrist for definitive diagnosis and treatment planning."
+42,4,3,0.847,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 42
+* **Screening Status:** AI-Generated Prediction (Requires Professional Review)
+
+**Disclaimer:** 
+This report is generated automatically by an artificial intelligence (CNN) screening model. It does not constitute a definitive medical diagnosis, nor does it replace a comprehensive clinical examination by a qualified eye-care professional. No patient history, specific symptoms, or detailed retinal findings were evaluated in the generation of this automated output.
+
+**Screening Results:**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.847 (84.7%)
+
+**Next Steps and Recommendations:**
+Due to the AI-predicted finding of severe diabetic retinopathy, the patient is strongly advised to schedule an immediate, in-person comprehensive eye examination with an optometrist or ophthalmologist for clinical evaluation, confirmation, and determination of appropriate management or treatment pathways."
+43,4,4,0.883,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+**Case ID:** 43  
+**Predicted DR Grade:** 4  
+**Predicted Screening Stage:** Proliferative Diabetic Retinopathy  
+**Model Confidence:** 0.883 (88.3%)  
+
+**Clinical Summary:**  
+Automated analysis using the designated Convolutional Neural Network (CNN) classifies this retinal imaging case as Grade 4 Proliferative Diabetic Retinopathy with a model confidence score of 0.883. This finding suggests the presence of advanced disease features, such as neovascularization and/or vitreous/preretinal hemorrhage. Urgent comprehensive evaluation by an ophthalmologist or retinal specialist is strongly recommended for confirmation and management."
+43,4,4,0.883,few_shot,"Predicted stage: Proliferative
+Model confidence: 0.883
+Explanation: The CNN model predicted Proliferative.
+Disclaimer: AI-generated result; professional review is required."
+43,4,4,0.883,chain_of_thought,"Based on the AI-based diabetic retinopathy screening analysis for Case ID 43, the Convolutional Neural Network (CNN) has classified the image as Diabetic Retinopathy Grade 4, corresponding to the Proliferative stage. The model generated this prediction with a confidence score of 0.883. This classification indicates the presence of advanced disease features characteristic of proliferative diabetic retinopathy, such as neovascularization, requiring urgent ophthalmological evaluation."
+43,4,4,0.883,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 4
+2. Predicted DR Stage: Proliferative
+3. Model Confidence: 0.883
+4. Explanation: Based on the analysis of the retinal image for Case ID 43, the CNN model has classified the diabetic retinopathy grade as 4, corresponding to the Proliferative stage, with a confidence score of 0.883.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis. It is not a definitive medical diagnosis. All results should be reviewed and confirmed by a qualified ophthalmologist or healthcare professional."
+43,4,4,0.883,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 43
+* **AI Model Prediction:** Grade 4 (Proliferative Diabetic Retinopathy)
+* **Model Confidence:** 0.883
+
+**Notice:** 
+This report is generated by an automated AI screening tool based on image analysis only. **This is not a confirmed medical diagnosis.** The AI model has flagged potential indicators associated with proliferative diabetic retinopathy, but automated screenings cannot replace a comprehensive clinical examination. 
+
+**Required Action:** 
+The findings and images from this case require prompt review and validation by a qualified eye-care professional (such as an optometrist or ophthalmologist) to determine the actual clinical status and appropriate management plan."
+44,4,4,0.856,zero_shot,"**DIABETIC RETINOPATHY SCREENING REPORT**
+
+**Case ID:** 44  
+**Screening Date/Time:** Automated Analysis  
+**Grading Model:** Convolutional Neural Network (Zero-Shot)  
+
+---
+
+### FINDINGS & AUTOMATED ASSESSMENT
+* **Predicted DR Grade:** 4  
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy  
+* **Model Confidence:** 0.856 (85.6%)  
+
+### CLINICAL INTERPRETATION
+The automated CNN analysis indicates features consistent with Proliferative Diabetic Retinopathy (Grade 4), reflecting the highest level of non-proliferative severity or the presence of neovascularization and/or vitreous/preretinal hemorrhage. The model's confidence in this classification is 0.856. 
+
+### RECOMMENDATION
+Urgent referral to an ophthalmologist or retinal specialist is strongly recommended for comprehensive clinical evaluation, confirmatory dilated fundus examination, and prompt management to prevent vision loss."
+44,4,4,0.856,few_shot,"Predicted stage: Proliferative
+Model confidence: 0.856
+Explanation: The CNN model predicted Proliferative.
+Disclaimer: AI-generated result; professional review is required."
+44,4,4,0.856,chain_of_thought,"**Automated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 44
+* **Predicted DR Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy (PDR)
+* **Model Confidence:** 0.856 (85.6%)
+
+**Clinical Explanation:**
+Based on the analysis of the retinal image, the Convolutional Neural Network (CNN) has classified this case as Grade 4, corresponding to the Proliferative Diabetic Retinopathy stage. This advanced stage is characterized by the potential presence of neovascularization and/or vitreous/preretinal hemorrhage. The model's prediction is generated with a confidence score of 0.856, reflecting a strong algorithmic certainty in identifying features associated with proliferative disease. 
+
+*Recommendation:* This finding requires urgent referral to an ophthalmologist or retina specialist for comprehensive evaluation and prompt clinical management."
+44,4,4,0.856,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 4
+2. Predicted DR Stage: Proliferative
+3. Model Confidence: 0.856
+4. Explanation: Based on the analysis of the retinal image by the CNN model, the case has been classified as Grade 4, corresponding to the Proliferative stage of diabetic retinopathy, with a model confidence score of 0.856.
+5. Disclaimer: This report is generated by an AI-based screening system and should be reviewed by a qualified healthcare professional for formal diagnosis and treatment planning."
+44,4,4,0.856,safety_constrained,"**AI Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 44
+* **Date of Generation:** [System Date Placeholder]
+
+---
+
+### **AI Prediction Summary**
+* **Predicted DR Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy
+* **Model Confidence:** 0.856 (85.6%)
+
+---
+
+### **Important Notice**
+This report contains an AI-generated screening prediction based on the provided image analysis and does not constitute a confirmed medical diagnosis. 
+
+* **No Confirmed Diagnosis:** This automated output is intended for screening support only. It does not replace a comprehensive clinical examination.
+* **No Symptom or Finding Correlation:** This report contains no assessment of specific retinal lesions, physical symptoms, or personal patient health details.
+* **Required Action:** This screening result **requires immediate review and confirmation by a qualified eye-care professional** (such as an optometrist or ophthalmologist) for proper clinical evaluation, diagnosis, and management planning."
+45,4,3,0.505,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 45
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.505
+
+**Findings and Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis of the provided retinal imagery, the patient is classified as having Grade 3 (Severe) diabetic retinopathy. The model generated this classification with a confidence score of 0.505. This finding indicates the potential presence of advanced retinal microvascular changes consistent with severe non-proliferative diabetic retinopathy, warranting urgent comprehensive clinical evaluation by an ophthalmologist or retinal specialist for confirmation and management planning."
+45,4,3,0.505,few_shot,"Predicted stage: Severe
+Model confidence: 0.505
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+45,4,3,0.505,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 45
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.505
+
+**Clinical Explanation:**
+The Convolutional Neural Network (CNN) analysis of the retinal image for Case ID 45 results in a predicted Diabetic Retinopathy (DR) Grade of 3, corresponding to the Severe stage of the disease. This classification indicates the presence of advanced characteristic lesions associated with severe non-proliferative diabetic retinopathy, such as numerous microaneurysms, hemorrhages, or venous beading. 
+
+The model's confidence score is 0.505, reflecting a moderate level of certainty in this prediction. Due to the borderline confidence level—which sits near the decision threshold for this grade—the automated finding warrants careful manual review by a qualified ophthalmologist or clinician to confirm the disease severity and determine appropriate patient management."
+45,4,3,0.505,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.505
+4. Explanation: The Convolutional Neural Network (CNN) analysis for Case ID 45 resulted in a predicted diabetic retinopathy grade of 3, corresponding to a severe stage, with a model confidence score of 0.505.
+5. Disclaimer: This report is generated by an AI-based screening tool and should be reviewed by a qualified healthcare professional for formal diagnosis and treatment planning."
+45,4,3,0.505,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 45
+* **Report Date:** Generated automatically based on AI screening analysis
+* **Notice:** This is an AI-generated prediction requiring review by an eye-care professional. Do not use this report as a confirmed diagnosis.
+
+---
+
+### **AI Screening Results**
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.505
+
+---
+
+### **Clinical Disclaimer**
+The findings above represent an automated preliminary prediction generated by a convolutional neural network (CNN) and are subject to model uncertainty (indicated by the confidence score). 
+
+* This output **does not** constitute a definitive medical diagnosis.
+* No specific retinal symptoms, physical findings, or personal patient details have been independently verified or incorporated into this automated assessment.
+* **Action Required:** This screening report must be evaluated by a qualified ophthalmologist, optometrist, or appropriate eye-care professional for comprehensive examination, confirmation, and clinical management."
+46,4,2,0.527,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 46
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 52.7% (0.527)
+
+**Findings & Interpretation:**
+Automated image analysis of the provided retinal screening images classifies this case as Grade 2 (Moderate Diabetic Retinopathy). The classification model yields a confidence score of 0.527, reflecting a moderate level of certainty in the predicted stage. 
+
+**Recommendation:**
+Due to the finding of moderate diabetic retinopathy, formal clinical review by an ophthalmologist or optometrist is recommended for comprehensive evaluation and confirmation."
+46,4,2,0.527,few_shot,"Predicted stage: Moderate
+Model confidence: 0.527
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+46,4,2,0.527,chain_of_thought,"Based on the AI-based screening analysis for Case ID 46, the Convolutional Neural Network (CNN) has predicted a Diabetic Retinopathy (DR) Grade of 2, corresponding to the Moderate stage of the disease. 
+
+The model's confidence score for this classification is 0.527. This confidence level indicates a moderate degree of certainty by the algorithm in identifying features consistent with moderate diabetic retinopathy, suggesting that the screening image exhibits characteristic lesions of this stage, though the result should be interpreted with clinical oversight given the borderline confidence margin."
+46,4,2,0.527,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.527
+4. Explanation: The analysis of Case ID 46 indicates a predicted Diabetic Retinopathy grade of 2, corresponding to the Moderate stage, with a model confidence score of 0.527.
+5. Disclaimer: This AI-generated screening report is intended for assistive purposes only and must be reviewed and confirmed by a qualified healthcare professional."
+46,4,2,0.527,safety_constrained,"**AI-Generated Screening Report**
+
+* **Case ID:** 46
+* **Screening Date:** Generated automatically
+* **Screening Result:** Moderate Diabetic Retinopathy (Grade 2)
+* **Model Confidence:** 0.527
+
+**Notice:** 
+This report is generated based on an artificial intelligence (CNN) image analysis prediction and **does not constitute a confirmed medical diagnosis**. The AI model has assigned a prediction corresponding to Moderate Diabetic Retinopathy with a confidence score of 0.527. 
+
+No specific retinal findings, symptoms, or personal patient details have been independently verified or diagnosed by this system. 
+
+**Required Action:**
+This screening result is preliminary and requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive eye examination for definitive diagnosis and appropriate management planning."
+47,4,3,0.673,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 47
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 67.3% (0.673)
+
+**Findings and Interpretation:**
+Based on the automated image analysis using the provided Convolutional Neural Network (CNN) model, the retinal screening images for Case ID 47 are classified as Diabetic Retinopathy (DR) Grade 3, corresponding to the Severe stage. The model generated this classification with a confidence score of 0.673. 
+
+**Recommendation:**
+Given the automated prediction of Severe DR, this case requires prompt referral to an ophthalmologist or a retinal specialist for a comprehensive dilated eye examination and timely clinical management."
+47,4,3,0.673,few_shot,"Predicted stage: Severe
+Model confidence: 0.673
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+47,4,3,0.673,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 47
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.673
+
+**Findings and Explanation:**
+Based on the CNN analysis, the screening image exhibits features consistent with Grade 3 diabetic retinopathy, categorized as the severe stage. This classification indicates the presence of advanced retinal abnormalities characteristic of severe non-proliferative diabetic retinopathy, such as extensive intraretinal hemorrhages, venous beading, or prominent microaneurysms. The model generated this assessment with a confidence score of 0.673, reflecting a moderate certainty in the prediction. Immediate ophthalmologic referral is recommended for comprehensive evaluation and management."
+47,4,3,0.673,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.673
+4. Explanation: The AI screening model analyzed Case ID 47 and predicted a diabetic retinopathy grade of 3, corresponding to the Severe stage, with a model confidence of 0.673 based on the provided image data.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis (Case ID: 47). It is not a definitive medical diagnosis. All automated findings must be reviewed and confirmed by a qualified ophthalmologist or healthcare professional before making any treatment decisions."
+47,4,3,0.673,safety_constrained,"**AI-Generated Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 47
+* **Screening Result:** Severe Diabetic Retinopathy (Grade 3)
+* **Model Confidence:** 0.673
+
+**Disclaimer and Important Notice:**
+This report is generated automatically based on an AI-based Convolutional Neural Network (CNN) screening model. **This is not a confirmed medical diagnosis.** The AI model has generated a prediction of Severe Diabetic Retinopathy with a confidence score of 0.673, but AI predictions have limitations and are not definitive. 
+
+No patient symptoms, specific retinal findings, or personal identifying details have been evaluated or incorporated into this automated output. 
+
+**Required Action:**
+This AI-generated prediction requires prompt review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist). Please schedule a comprehensive eye examination as soon as possible for proper clinical evaluation and diagnosis."
+48,4,3,0.928,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 48
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.928
+
+**Findings and Assessment:**
+Automated analysis of the retinal imaging for Case ID 48 indicates features consistent with Severe Non-Proliferative Diabetic Retinopathy (DR Grade 3). The deep learning model generated this classification with a confidence score of 0.928. 
+
+**Recommendation:**
+Due to the classification of severe diabetic retinopathy, urgent referral to an ophthalmologist or a retinal specialist is recommended for a comprehensive dilated eye examination and timely clinical management to prevent vision loss."
+48,4,3,0.928,few_shot,"Predicted stage: Severe
+Model confidence: 0.928
+Explanation: The CNN model predicted Severe.
+Disclaimer: AI-generated result; professional review is required."
+48,4,3,0.928,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 48
+* **Predicted DR Grade:** 3
+* **Predicted DR Stage:** Severe
+* **Model Confidence:** 0.928
+
+**Clinical Explanation:**
+Based on the analysis of the retinal imagery, the Convolutional Neural Network (CNN) has classified this case as Diabetic Retinopathy Grade 3, corresponding to a Severe stage of the disease. The model exhibits a high confidence score of 0.928 in this prediction, indicating strong feature alignment with severe-grade manifestations (such as extensive microaneurysms, hemorrhages, or cotton wool spots) as defined by standard screening criteria. Immediate ophthalmological evaluation is recommended for confirmation and management."
+48,4,3,0.928,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 3
+2. Predicted DR Stage: Severe
+3. Model Confidence: 0.928
+4. Explanation: The AI screening model analyzed the retinal image for Case ID 48 and detected features consistent with severe non-proliferative diabetic retinopathy (DR Grade 3) with a model confidence score of 0.928.
+5. Disclaimer: This is an AI-generated screening report based on automated image analysis (Case ID: 48). It is intended to assist healthcare professionals and does not constitute a definitive medical diagnosis. Clinical correlation and evaluation by a qualified ophthalmologist or healthcare provider are required for patient management and treatment decisions."
+48,4,3,0.928,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 48
+* **Analysis Type:** Automated Retinal Image Screening
+* **AI Prediction:** Diabetic Retinopathy Grade 3 (Severe)
+* **Model Confidence:** 0.928
+
+**Disclaimer and Notice:**
+This report is generated automatically by an artificial intelligence (CNN) screening tool based solely on the provided image analysis. **This is an AI-generated prediction and does not constitute a confirmed medical diagnosis.** 
+
+No symptoms, specific retinal findings, or patient personal details have been assessed or incorporated into this automated output. 
+
+**Recommended Action:**
+Due to the AI-predicted finding of severe-level diabetic retinopathy, urgent clinical evaluation is strongly recommended. Please consult a qualified eye-care professional (optometrist or ophthalmologist) for a comprehensive dilated eye examination, confirmation of diagnosis, and appropriate management."
+49,4,4,0.516,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 49
+* **Predicted DR Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy (PDR)
+* **Model Confidence:** 0.516 (51.6%)
+
+**Clinical Summary:**
+Automated image analysis of Case ID resulted in a predicted Diabetic Retinopathy (DR) Grade of 4, corresponding to the Proliferative stage. The model generated this classification with a confidence score of 0.516. 
+
+**Recommendation:**
+Given the classification of Proliferative Diabetic Retinopathy, urgent referral to an ophthalmologist or retinal specialist is strongly recommended for a comprehensive clinical evaluation and timely management."
+49,4,4,0.516,few_shot,"Predicted stage: Proliferative
+Model confidence: 0.516
+Explanation: The CNN model predicted Proliferative.
+Disclaimer: AI-generated result; professional review is required."
+49,4,4,0.516,chain_of_thought,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 49
+* **Predicted DR Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy (PDR)
+* **Model Confidence:** 0.516
+
+**Clinical Explanation:**
+The CNN model has classified the retinal screening image as Grade 4, corresponding to the Proliferative Diabetic Retinopathy (PDR) stage. This advanced stage is characterized by the potential presence of abnormal neovascularization and associated sight-threatening complications. The model's confidence score of 0.516 indicates a moderate certainty in this classification, reflecting a borderline probability between severe non-proliferative and early proliferative disease. Given the Grade 4 prediction, urgent referral to an ophthalmologist for a comprehensive dilated eye examination and timely intervention is strongly recommended."
+49,4,4,0.516,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 4
+2. Predicted DR Stage: Proliferative
+3. Model Confidence: 0.516
+4. Explanation: The convolutional neural network analyzed the retinal image and classified the case with a predicted diabetic retinopathy grade of 4, corresponding to the proliferative stage, with a model confidence score of 0.516.
+5. Disclaimer: This is an AI-generated screening report based solely on CNN predictions. It is not a definitive medical diagnosis. All results should be reviewed and confirmed by a qualified healthcare professional."
+49,4,4,0.516,safety_constrained,"**AI-Generated Screening Report**
+
+* **Case ID:** 49
+* **Report Date:** October 24, 2023 (Current Date)
+
+**Disclaimer:** 
+This report contains an artificial intelligence (AI)-generated prediction and does not constitute a confirmed medical diagnosis. The findings and severity grades listed below require clinical review and confirmation by a qualified eye-care professional (ophthalmologist or optometrist). 
+
+---
+
+### **AI Screening Prediction**
+
+* **Predicted Diabetic Retinopathy (DR) Grade:** 4
+* **Predicted DR Stage:** Proliferative Diabetic Retinopathy
+* **Model Confidence:** 0.516
+
+---
+
+### **Clinical Recommendations**
+
+1. **Professional Evaluation Required:** Due to the AI-generated classification indicating potential proliferative changes (Grade 4), it is strongly recommended that this case be referred to an eye-care professional promptly for a comprehensive dilated eye examination.
+2. **Correlation:** Clinical findings, patient history, and direct visualization of the retina by a specialist must be used to validate this automated screening result before any treatment decisions are made."
+50,4,2,0.783,zero_shot,"**Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 50
+* **Predicted DR Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 78.3% (0.783)
+
+**Findings & Interpretation:**
+Based on the automated convolutional neural network (CNN) analysis of the submitted retinal image, the case is classified as Grade 2, corresponding to moderate diabetic retinopathy. The model generated this classification with a confidence score of 0.783. This finding suggests the presence of moderate non-proliferative changes characteristic of diabetic retinopathy, warranting further clinical correlation and a comprehensive dilated eye examination by an eye care specialist."
+50,4,2,0.783,few_shot,"Predicted stage: Moderate
+Model confidence: 0.783
+Explanation: The CNN model predicted Moderate.
+Disclaimer: AI-generated result; professional review is required."
+50,4,2,0.783,chain_of_thought,"Based on the AI-based diabetic retinopathy screening analysis for Case ID 50, the convolutional neural network predicts a Diabetic Retinopathy Grade of 2, corresponding to a Moderate stage of the condition. The model generated this assessment with a confidence score of 0.783. This classification indicates the presence of more than just mild microaneurysms, such as moderate non-proliferative retinopathy findings, warranting routine clinical review and correlation as per standard screening protocols."
+50,4,2,0.783,template_constrained,"Diabetic Retinopathy Screening Report
+
+1. Predicted DR Grade: 2
+2. Predicted DR Stage: Moderate
+3. Model Confidence: 0.783
+4. Explanation: The AI model analyzed the retinal image for Case ID 50 and detected signs consistent with moderate diabetic retinopathy (Grade 2) with a confidence score of 0.783.
+5. Disclaimer: This automated screening report is generated by an AI model and is intended to assist healthcare professionals. It does not constitute a definitive medical diagnosis. All results should be reviewed and confirmed by a qualified ophthalmologist or clinician."
+50,4,2,0.783,safety_constrained,"**AI-Based Diabetic Retinopathy Screening Report**
+
+* **Case ID:** 50
+* **Screening Date:** Generated automatically
+* **Device/Model Information:** Convolutional Neural Network (CNN) Screening Tool
+
+---
+
+### **AI Screening Prediction**
+* **Predicted Diabetic Retinopathy (DR) Grade:** 2
+* **Predicted DR Stage:** Moderate
+* **Model Confidence:** 0.783 (78.3%)
+
+---
+
+### **Important Clinical Notice**
+* **Not a Confirmed Diagnosis:** This report is generated by an artificial intelligence algorithm and reflects a computational prediction based on the provided image data. It does not constitute a definitive medical diagnosis.
+* **No Retinal Findings Assessed:** This automated output does not include a direct clinical evaluation of specific retinal lesions, symptoms, or patient history. 
+* **Required Action:** This AI-generated prediction requires mandatory review and confirmation by a qualified eye-care professional (such as an optometrist or ophthalmologist) to determine the appropriate clinical management, diagnosis, and treatment plan."

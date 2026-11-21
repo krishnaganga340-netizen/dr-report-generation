@@ -1,0 +1,18 @@
+{
+  "test_case": 1,
+  "cnn_prediction": {
+    "grade": 2,
+    "stage": "Moderate",
+    "confidence": 54.46
+  },
+  "llm_model": "gemini-3.5-flash-lite",
+  "prompt_strategies": [
+    "zero_shot",
+    "few_shot",
+    "chain_of_thought",
+    "template_constrained",
+    "safety_constrained"
+  ],
+  "successful_reports": 5,
+  "total_strategies": 5
+}

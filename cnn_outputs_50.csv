@@ -1,0 +1,51 @@
+case_id,image_id,true_grade,cnn_grade,cnn_stage,confidence
+1,3486f7096276,0,0,No DR,0.964
+2,4e54ccfd49b2,0,0,No DR,0.989
+3,ef7eb85b75fc,0,0,No DR,0.919
+4,9c514d2d5b3f,0,0,No DR,0.999
+5,d2fb715b0c41,0,0,No DR,0.985
+6,09237bf783a4,0,0,No DR,0.999
+7,ae2c3f6312ef,0,0,No DR,0.993
+8,e160a3b19911,0,0,No DR,1.0
+9,415d5c5e785f,0,0,No DR,0.999
+10,005b95c28852,0,0,No DR,0.996
+11,ca7140ecf389,1,1,Mild,0.837
+12,8ff863f8874f,1,2,Moderate,0.755
+13,38e0e28d35d3,1,0,No DR,0.851
+14,7005be54cab1,1,1,Mild,0.513
+15,58ccba7eec9c,1,1,Mild,0.791
+16,b8ebedd382de,1,1,Mild,0.963
+17,94111ed3d276,1,1,Mild,0.914
+18,a77dbec966d4,1,1,Mild,0.809
+19,ae8472f8d310,1,1,Mild,0.876
+20,531b39880c32,1,1,Mild,0.862
+21,e17507a4a1f5,2,2,Moderate,0.848
+22,b82d5f1f1145,2,1,Mild,0.466
+23,115e42dd6a81,2,3,Severe,0.517
+24,fa748b57262b,2,2,Moderate,0.755
+25,6b7cf869622a,2,1,Mild,0.634
+26,28824d12d31d,2,3,Severe,0.497
+27,e06d3d4733f0,2,2,Moderate,0.95
+28,cac40227d3b2,2,2,Moderate,0.741
+29,c3acf47700ea,2,3,Severe,0.866
+30,0da09e3ce8f1,2,2,Moderate,0.888
+31,191a711852bd,3,4,Proliferative,0.734
+32,dbfd238b3468,3,3,Severe,0.988
+33,bb7e0a2544cd,3,3,Severe,0.938
+34,0104b032c141,3,3,Severe,0.529
+35,4b618537d52f,3,3,Severe,0.7
+36,c3cd0200df79,3,3,Severe,0.88
+37,91cf56d3d1af,3,3,Severe,0.709
+38,070f67572d03,3,4,Proliferative,0.624
+39,aba3063c5413,3,2,Moderate,0.583
+40,093a42649c29,3,3,Severe,0.483
+41,95e732e043a1,4,2,Moderate,0.52
+42,cf1b9d26d38d,4,3,Severe,0.847
+43,69fff98cb32a,4,4,Proliferative,0.883
+44,3206171db5be,4,4,Proliferative,0.856
+45,a5c9a8c726b2,4,3,Severe,0.505
+46,4462fba1d2a1,4,2,Moderate,0.527
+47,1638404f385c,4,3,Severe,0.673
+48,6f4719c6bb4b,4,3,Severe,0.928
+49,034cb07a550f,4,4,Proliferative,0.516
+50,7c90ab025331,4,2,Moderate,0.783
